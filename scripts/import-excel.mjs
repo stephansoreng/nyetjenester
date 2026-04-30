@@ -81,7 +81,11 @@ function cellToText(value) {
 
 const sourceFile = findLatestExcelFile();
 if (!sourceFile) {
-  throw new Error("Fant ingen .xlsx-fil i input/ eller prosjektroten.");
+  console.warn(
+    "[import-excel] Ingen .xlsx-fil funnet i input/ eller prosjektroten — " +
+    "hopper over import. Bruker eksisterende src/data/requests.json."
+  );
+  process.exit(0);
 }
 
 const workbook = new ExcelJS.Workbook();

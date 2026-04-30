@@ -45,4 +45,13 @@ Prosjektet er klart for statisk deploy til Vercel.
 - Output directory: `dist`
 - Install command: `npm install`
 
-Excel-data importeres under build fra nyeste `.xlsx` i `input/`. Appen er ikke autentisert, så en deployet URL må regnes som delbar for alle som får lenken.
+**Excel-filer committes ikke til Git** (`.gitignore` utelukker `*.xlsx`). Vercel bygger fra den siste committede `src/data/requests.json`.
+
+### Oppdatere data i produksjon
+
+1. Legg ny `.xlsx` i `input/` lokalt.
+2. Kjør `npm run build` lokalt → `requests.json` regenereres.
+3. `git add src/data/requests.json && git commit && git push`
+4. Vercel deployer automatisk med ny data.
+
+Appen er ikke autentisert, så en deployet URL må regnes som delbar for alle som får lenken.
