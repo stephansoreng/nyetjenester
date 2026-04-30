@@ -1,0 +1,1091 @@
+{
+  "metadata": {
+    "sourceFile": "nye tjenester 30.04 - kliniske.xlsx",
+    "sourcePath": "input\\nye tjenester 30.04 - kliniske.xlsx",
+    "sheetName": "export",
+    "importedAt": "2026-04-30T14:25:06.014Z",
+    "total": 108
+  },
+  "requests": [
+    {
+      "id": "RF10320",
+      "number": "RF10320",
+      "title": "NHS - Ascom TeleCare - Pasientvarslingssystem",
+      "status": "I kø - Planlegging",
+      "assignmentGroup": "AMK-tjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 2
+    },
+    {
+      "id": "RF10399",
+      "number": "RF10399",
+      "title": "Oppgradering Sysmex Extended IPU FIN",
+      "status": "Venter internt HN IKT",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 3
+    },
+    {
+      "id": "RF10412",
+      "number": "RF10412",
+      "title": "CGM analytix scanning",
+      "status": "Venter internt HN IKT",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 4
+    },
+    {
+      "id": "RF10424",
+      "number": "RF10424",
+      "title": "RetinaRisk embedded i Arena (web-app i Arena)",
+      "status": "Venter på kunde",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 5
+    },
+    {
+      "id": "RF10670",
+      "number": "RF10670",
+      "title": "Nye UNN Narvik - Pasientovervåkning og telemetri",
+      "status": "I kø - Planlegging",
+      "assignmentGroup": "AMK-tjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 6
+    },
+    {
+      "id": "RF10790",
+      "number": "RF10790",
+      "title": "CGM Analytix (del 2/2)",
+      "status": "Venter internt HN IKT",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 7
+    },
+    {
+      "id": "RF10893",
+      "number": "RF10893",
+      "title": "Nye UNN Narvik - Ascom Telligence - Pasientvarslingssystem",
+      "status": "I kø - Planlegging",
+      "assignmentGroup": "AMK-tjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 8
+    },
+    {
+      "id": "RF10902",
+      "number": "RF10902",
+      "title": "Intrahospitalt EKG-arkiv (ComPACS) DIPS AS",
+      "status": "Parkert",
+      "assignmentGroup": "AMK-tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 9
+    },
+    {
+      "id": "RF10954",
+      "number": "RF10954",
+      "title": "Virtuell server Pasientovervåkning, NLSH",
+      "status": "Gjennomføring pågår",
+      "assignmentGroup": "AMK-tjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 10
+    },
+    {
+      "id": "RF11027",
+      "number": "RF11027",
+      "title": "Barne og ungdomsavdelingen - Pasientovervåkning, UNN",
+      "status": "Parkert",
+      "assignmentGroup": "AMK-tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 11
+    },
+    {
+      "id": "RF11029",
+      "number": "RF11029",
+      "title": "Sammenslåing FORUM UNN/FIN",
+      "status": "Evaluering og overlevering til drift",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "5. overlevering",
+      "derivedPhase": "Avslutning",
+      "sourceRow": 12
+    },
+    {
+      "id": "RF11031",
+      "number": "RF11031",
+      "title": "Fjernaksessløsning for GE Healthcare FIN",
+      "status": "Inntakskø",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 13
+    },
+    {
+      "id": "RF11035",
+      "number": "RF11035",
+      "title": "ROTEM live NLSH",
+      "status": "Venter på leverandør",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 14
+    },
+    {
+      "id": "RF11164",
+      "number": "RF11164",
+      "title": "LocusMobile HN",
+      "status": "Gjennomføring pågår",
+      "assignmentGroup": "AMK-tjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 15
+    },
+    {
+      "id": "RF11228",
+      "number": "RF11228",
+      "title": "Batch-programmer CGM Analytix",
+      "status": "I kø - Planlegging",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 16
+    },
+    {
+      "id": "RF11240",
+      "number": "RF11240",
+      "title": "Server for oppsett av pasientmonitorer - Telemetri UNN - NOR-klinikken",
+      "status": "Parkert",
+      "assignmentGroup": "AMK-tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 17
+    },
+    {
+      "id": "RF11263",
+      "number": "RF11263",
+      "title": "DIPS LIB Blodgiverprøver, Regionalt",
+      "status": "Venter internt HN IKT",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 18
+    },
+    {
+      "id": "RF11285",
+      "number": "RF11285",
+      "title": "Fjernaksessløsning for GE Healthcare NLSH",
+      "status": "Inntakskø",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 19
+    },
+    {
+      "id": "RF11334",
+      "number": "RF11334",
+      "title": "Philips iX: Implementering av Philips iX overvåknings programvare HSYK",
+      "status": "Gjennomføring pågår",
+      "assignmentGroup": "AMK-tjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 20
+    },
+    {
+      "id": "RF11363",
+      "number": "RF11363",
+      "title": "Visiquick LYR UNN",
+      "status": "Venter på leverandør",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 21
+    },
+    {
+      "id": "RF11392",
+      "number": "RF11392",
+      "title": "MassLynx via kontor PC_ AN og OMF",
+      "status": "Venter på kunde",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 22
+    },
+    {
+      "id": "RF11396",
+      "number": "RF11396",
+      "title": "eSTROKE UNN",
+      "status": "Designarbeid pågår",
+      "assignmentGroup": "AMK-tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 23
+    },
+    {
+      "id": "RF11407",
+      "number": "RF11407",
+      "title": "Telemetri Longyearbyen",
+      "status": "Gjennomføring pågår",
+      "assignmentGroup": "AMK-tjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 24
+    },
+    {
+      "id": "RF11441",
+      "number": "RF11441",
+      "title": "Nye UNN Narvik - Løsningsdesign og implementasjon av infusjonsutstyr",
+      "status": "Designarbeid pågår",
+      "assignmentGroup": "Elektronisk kurve - forvaltning",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 25
+    },
+    {
+      "id": "RF11464",
+      "number": "RF11464",
+      "title": "LocusEmergency HN",
+      "status": "Venter på leverandør",
+      "assignmentGroup": "AMK-tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 26
+    },
+    {
+      "id": "RF11499",
+      "number": "RF11499",
+      "title": "eStroke: Implementering av eStroke HSYK",
+      "status": "Designarbeid pågår",
+      "assignmentGroup": "AMK-tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 27
+    },
+    {
+      "id": "RF11609",
+      "number": "RF11609",
+      "title": "KIKO-Gastro, UNN",
+      "status": "Evaluering og overlevering til drift",
+      "assignmentGroup": "AMK-tjenester",
+      "phasePlaceholder": "5. overlevering",
+      "derivedPhase": "Avslutning",
+      "sourceRow": 28
+    },
+    {
+      "id": "RF11635",
+      "number": "RF11635",
+      "title": "YouWell eBehandling RHF / HN / UNN",
+      "status": "Inntakskø",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 29
+    },
+    {
+      "id": "RF11943",
+      "number": "RF11943",
+      "title": "NHS - Pasientovervåkning og telemetri",
+      "status": "Designarbeid pågår",
+      "assignmentGroup": "AMK-tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 30
+    },
+    {
+      "id": "RF12045",
+      "number": "RF12045",
+      "title": "Partus fødesystem fødselsnummerintegrasjon, Helse Nord",
+      "status": "Gjennomføring pågår",
+      "assignmentGroup": "Kliniske spesialiteter",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 31
+    },
+    {
+      "id": "RF12418",
+      "number": "RF12418",
+      "title": "SuiteHeart NLSH",
+      "status": "Inntakskø",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 32
+    },
+    {
+      "id": "RF12622",
+      "number": "RF12622",
+      "title": "MedisQFR NLSH",
+      "status": "Inntakskø",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 33
+    },
+    {
+      "id": "RF12868",
+      "number": "RF12868",
+      "title": "AAA NHS - Ascom alarm agent - person og akuttalarm, FIN",
+      "status": "Designarbeid pågår",
+      "assignmentGroup": "AMK-tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 34
+    },
+    {
+      "id": "RF13118",
+      "number": "RF13118",
+      "title": "Web-tjeneste mot Labcraft HN",
+      "status": "Venter på kunde",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 35
+    },
+    {
+      "id": "RF13134",
+      "number": "RF13134",
+      "title": "Zeiss forum HSYK",
+      "status": "Designarbeid pågår",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 36
+    },
+    {
+      "id": "RF13156",
+      "number": "RF13156",
+      "title": "Nye servere automasjon sentrallab, NLSH",
+      "status": "Gjennomføring pågår",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 37
+    },
+    {
+      "id": "RF13210",
+      "number": "RF13210",
+      "title": "ARIA-DIPS integrasjon for henvisning, UNN",
+      "status": "Parkert",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 38
+    },
+    {
+      "id": "RF13264",
+      "number": "RF13264",
+      "title": "Regionalt: Bistand integrasjoner - Digital hjemmeoppfølging (Dignio)",
+      "status": "Inntakskø",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 39
+    },
+    {
+      "id": "RF13429",
+      "number": "RF13429",
+      "title": "MiM Symphony FIN",
+      "status": "Inntakskø",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 40
+    },
+    {
+      "id": "RF13461",
+      "number": "RF13461",
+      "title": "PI-EPJ116?: Elektronisk skjema likt som \"Svelgtest Arena So\" med svelgtesten GUSS i hele HN",
+      "status": "Inntakskø",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 41
+    },
+    {
+      "id": "RF13462",
+      "number": "RF13462",
+      "title": "Rosaarket - Ønske om oppsett i DIPS, NLSH",
+      "status": "Inntakskø",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 42
+    },
+    {
+      "id": "RF13464",
+      "number": "RF13464",
+      "title": "PI-DSxx: ECT - Strukturert dokument til DIPS, UNN",
+      "status": "Inntakskø",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 43
+    },
+    {
+      "id": "RF13465",
+      "number": "RF13465",
+      "title": "PI-DS119: Strukturert dokument: Tverrfaglig rehabilitering - Strukturert dokument til DIPS, NLSH",
+      "status": "Designarbeid pågår",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 44
+    },
+    {
+      "id": "RF13505",
+      "number": "RF13505",
+      "title": "Bistand til anskaffelse: Cobas 6000 UNN",
+      "status": "Kravstilling",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 45
+    },
+    {
+      "id": "RF13968",
+      "number": "RF13968",
+      "title": "Rapport over Risikokartlegging for ernæringsmessig risiko, HSYK/HN",
+      "status": "Inntakskø",
+      "assignmentGroup": "Forvaltningssenter EPJ",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 46
+    },
+    {
+      "id": "RF13991",
+      "number": "RF13991",
+      "title": "Sikkerhet: Sårbarhet w7 PC røntgenlab Mosjøen, HSYK",
+      "status": "Venter internt HN IKT",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 47
+    },
+    {
+      "id": "RF14056",
+      "number": "RF14056",
+      "title": "Etablere en server som kan eksportere DICOM-data fra vår Aria database",
+      "status": "Inntakskø",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 48
+    },
+    {
+      "id": "RF14100",
+      "number": "RF14100",
+      "title": "Blackford HN",
+      "status": "Venter på leverandør",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 49
+    },
+    {
+      "id": "RF14101",
+      "number": "RF14101",
+      "title": "Deepc HN",
+      "status": "Gjennomføring pågår",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 50
+    },
+    {
+      "id": "RF14440",
+      "number": "RF14440",
+      "title": "Viewpoint UNN - PDF til DIPS",
+      "status": "Venter på oppstartsmøte",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 51
+    },
+    {
+      "id": "RF14570",
+      "number": "RF14570",
+      "title": "Implementering av Sensititre Vizion",
+      "status": "Venter på leverandør",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 52
+    },
+    {
+      "id": "RF14994",
+      "number": "RF14994",
+      "title": "PI-DS184: BCG-behandling, Instillasjonsbehandling, strukturerte skjema, UNN",
+      "status": "Designarbeid pågår",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 53
+    },
+    {
+      "id": "RF15014",
+      "number": "RF15014",
+      "title": "FilmArray, NLSH",
+      "status": "Designarbeid pågår",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 54
+    },
+    {
+      "id": "RF15246",
+      "number": "RF15246",
+      "title": "Meldeskjema i forbindelse med oppstart av CAR-T, UNN",
+      "status": "Venter på prioriteringsmøte",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "1. mottak og kategorisering",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 55
+    },
+    {
+      "id": "RF15248",
+      "number": "RF15248",
+      "title": "PI-DS06 Pasientskjema til Helsenorge HSYK",
+      "status": "Inntakskø",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 56
+    },
+    {
+      "id": "RF15294",
+      "number": "RF15294",
+      "title": "PI-DS116 Pasientskjema til helsenorge: Personskadeskjema",
+      "status": "Venter på prioriteringsmøte",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "1. mottak og kategorisering",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 57
+    },
+    {
+      "id": "RF16794",
+      "number": "RF16794",
+      "title": "Integrasjon av EasyMini til LIS system CGM Analytix",
+      "status": "I kø - Planlegging",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 58
+    },
+    {
+      "id": "RF16956",
+      "number": "RF16956",
+      "title": "FilmArray integrasjon mot Analytix UNN",
+      "status": "Designarbeid pågår",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 59
+    },
+    {
+      "id": "RF17636",
+      "number": "RF17636",
+      "title": "Modernisering av Ascom Alarm Agent (AAA) Kirkenes sykehus, FIN",
+      "status": "Designarbeid pågår",
+      "assignmentGroup": "AMK-tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 60
+    },
+    {
+      "id": "RF17880",
+      "number": "RF17880",
+      "title": "WIFI konfigurasjon for Ascom enheter FIN/UNN",
+      "status": "Inntakskø",
+      "assignmentGroup": "AMK-tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 61
+    },
+    {
+      "id": "RF17907",
+      "number": "RF17907",
+      "title": "Sensorteknologi Elocare NLSH",
+      "status": "Gjennomføring pågår",
+      "assignmentGroup": "AMK-tjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 62
+    },
+    {
+      "id": "RF18230",
+      "number": "RF18230",
+      "title": "Philips e-Alert HN",
+      "status": "Gjennomføring pågår",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 63
+    },
+    {
+      "id": "RF18491",
+      "number": "RF18491",
+      "title": "Behov for bistand til løsningsdesign og oppsett av 3D-printer",
+      "status": "Designarbeid pågår",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 64
+    },
+    {
+      "id": "RF18492",
+      "number": "RF18492",
+      "title": "Behov for bistand til løsningsdesign og oppsett av IPS CaseDesigner",
+      "status": "Designarbeid pågår",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 65
+    },
+    {
+      "id": "RF18591",
+      "number": "RF18591",
+      "title": "Regional kvalitetssikring av granskningsskjermer innen bildediagnostikk",
+      "status": "Inntakskø",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 66
+    },
+    {
+      "id": "RF18646",
+      "number": "RF18646",
+      "title": "Makrobenker NLSH",
+      "status": "Venter internt HN IKT",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 67
+    },
+    {
+      "id": "RF18716",
+      "number": "RF18716",
+      "title": "Installasjon av DIPS API - Surgery-plan i Test og Prod, HN",
+      "status": "Inntakskø",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 68
+    },
+    {
+      "id": "RF18907",
+      "number": "RF18907",
+      "title": "AAA Ascom Alarm System, HSYK",
+      "status": "Inntakskø",
+      "assignmentGroup": "AMK-tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 69
+    },
+    {
+      "id": "RF18971",
+      "number": "RF18971",
+      "title": "Legemiddelsøknader.no, HN",
+      "status": "Inntakskø",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 70
+    },
+    {
+      "id": "RF19040",
+      "number": "RF19040",
+      "title": "Pålogging med Active Directory på PC for bruk ved kalibrering av pipetter",
+      "status": "Venter på oppstartsmøte",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 71
+    },
+    {
+      "id": "RF19142",
+      "number": "RF19142",
+      "title": "Terminering av Profdoc LYR og avlevering av data - behov for bistand fra HNIKT",
+      "status": "Inntakskø",
+      "assignmentGroup": "Kliniske spesialiteter",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 72
+    },
+    {
+      "id": "RF19232",
+      "number": "RF19232",
+      "title": "Ventana Connect BMSS, NLSH",
+      "status": "Venter internt HN IKT",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 73
+    },
+    {
+      "id": "RF19320",
+      "number": "RF19320",
+      "title": "CytoScanHD-instrumenter (lagring og overføring av datafiler)",
+      "status": "Inntakskø",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 74
+    },
+    {
+      "id": "RF19369",
+      "number": "RF19369",
+      "title": "AAA Implementering av Ascom Alarm agent (AAA) ved UNN Furumoen (Nye UNN Narvik)",
+      "status": "Designarbeid pågår",
+      "assignmentGroup": "AMK-tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 75
+    },
+    {
+      "id": "RF19449",
+      "number": "RF19449",
+      "title": "Phadia LabCommunity Thermo Fischer Scientific",
+      "status": "Inntakskø",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 76
+    },
+    {
+      "id": "RF19534",
+      "number": "RF19534",
+      "title": "Automatisk lagring av data fra Alinity instrument",
+      "status": "Inntakskø",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 77
+    },
+    {
+      "id": "RF19618",
+      "number": "RF19618",
+      "title": "Bistand i anskaffelse av Hjerte-lunge maskin, UNN",
+      "status": "Inntakskø",
+      "assignmentGroup": "Elektronisk kurve - MTU",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 78
+    },
+    {
+      "id": "RF19721",
+      "number": "RF19721",
+      "title": "EKG ComPACS integrasjon",
+      "status": "Inntakskø",
+      "assignmentGroup": "AMK-tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 79
+    },
+    {
+      "id": "RF19805",
+      "number": "RF19805",
+      "title": "SOAS-R skjema",
+      "status": "Inntakskø",
+      "assignmentGroup": "Forvaltningssenter EPJ",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 80
+    },
+    {
+      "id": "RF19958",
+      "number": "RF19958",
+      "title": "OptiLite IE700, NLSH",
+      "status": "Inntakskø",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 81
+    },
+    {
+      "id": "RF19984",
+      "number": "RF19984",
+      "title": "Bistand i anskaffelse Optos Netthinnekamera, UNN",
+      "status": "Venter på kunde",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 82
+    },
+    {
+      "id": "RF20017",
+      "number": "RF20017",
+      "title": "Cobas Pure instrument samt Navify mellomvare Vesterålen og Lofoten, NLSH",
+      "status": "Venter på oppstartsmøte",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 83
+    },
+    {
+      "id": "RF20019",
+      "number": "RF20019",
+      "title": "Blodkulturinkubator BactAlert3D_240 og Maestria mellomvare Vesterålen og Lofoten, NLSH",
+      "status": "Inntakskø",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 84
+    },
+    {
+      "id": "RF20021",
+      "number": "RF20021",
+      "title": "Virtuo inkubatorskap og Maestria mellomvare BOO, NLSH",
+      "status": "Inntakskø",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 85
+    },
+    {
+      "id": "RF20054",
+      "number": "RF20054",
+      "title": "Oasis UNN",
+      "status": "Inntakskø",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 86
+    },
+    {
+      "id": "RF20057",
+      "number": "RF20057",
+      "title": "Kaiku Dips Integrasjon",
+      "status": "Inntakskø",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 87
+    },
+    {
+      "id": "RF20058",
+      "number": "RF20058",
+      "title": "Ethos UNN",
+      "status": "Inntakskø",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 88
+    },
+    {
+      "id": "RF20222",
+      "number": "RF20222",
+      "title": "Bistand anskaffelse av interacoustics \"Titan\" mobile tympanometer, multifunksjonsinstrumenter AABR og integrasjon mot DIPS",
+      "status": "Inntakskø",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 89
+    },
+    {
+      "id": "RF20287",
+      "number": "RF20287",
+      "title": "Etablering av henvisningsflyt til/fra Unilabs Bodø",
+      "status": "Gjennomføring pågår",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 90
+    },
+    {
+      "id": "RF20359",
+      "number": "RF20359",
+      "title": "Klozapin monitorering, SANO",
+      "status": "Inntakskø",
+      "assignmentGroup": "Elektronisk kurve - forvaltning",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 91
+    },
+    {
+      "id": "RF20414",
+      "number": "RF20414",
+      "title": "Endobase, dokumenatsjonssystem for skopi, FIN (reetablering)",
+      "status": "Designarbeid pågår",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 92
+    },
+    {
+      "id": "RF20437",
+      "number": "RF20437",
+      "title": "Plattform for Digital hjemmeoppølging, FIN",
+      "status": "Inntakskø",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 93
+    },
+    {
+      "id": "RF20621",
+      "number": "RF20621",
+      "title": "Bistand fra HNIKT i forbindelse med anskaffelse: innkjøp av embryoskop til IVF-poliklinikken",
+      "status": "Inntakskø",
+      "assignmentGroup": "Kliniske spesialiteter",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 94
+    },
+    {
+      "id": "RF20686",
+      "number": "RF20686",
+      "title": "Ressurs til innkjøp av Cerus - direkteanskaffelse NLSH",
+      "status": "Venter på kunde",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 95
+    },
+    {
+      "id": "RF20688",
+      "number": "RF20688",
+      "title": "Anskaffelse nytt kolposkop SSJ, HSYK",
+      "status": "I kø - Planlegging",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 96
+    },
+    {
+      "id": "RF20751",
+      "number": "RF20751",
+      "title": "ArcCheck UNN",
+      "status": "Inntakskø",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 97
+    },
+    {
+      "id": "RF20752",
+      "number": "RF20752",
+      "title": "IC_Profiler UNN",
+      "status": "Inntakskø",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 98
+    },
+    {
+      "id": "RF20753",
+      "number": "RF20753",
+      "title": "SunScan3D UNN",
+      "status": "Designarbeid pågår",
+      "assignmentGroup": "Bildediagnostiske tjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 99
+    },
+    {
+      "id": "RF21312",
+      "number": "RF21312",
+      "title": "Bestilling av SSO Dignio, NLSH",
+      "status": "Inntakskø",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 100
+    },
+    {
+      "id": "RF21313",
+      "number": "RF21313",
+      "title": "TOMES - Terumo, NLSH",
+      "status": "Inntakskø",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 101
+    },
+    {
+      "id": "RF21314",
+      "number": "RF21314",
+      "title": "Anskaffelsesstøtte - Nye PCR-instrumenter",
+      "status": "Kravstilling",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "4. planlegging og gjennomføring",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 102
+    },
+    {
+      "id": "RF21462",
+      "number": "RF21462",
+      "title": "Ny frittstående programvare - Installasjon av Vscan Air Wireless",
+      "status": "Inntakskø",
+      "assignmentGroup": "Kliniske spesialiteter",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 103
+    },
+    {
+      "id": "RF21495",
+      "number": "RF21495",
+      "title": "Installasjon og oppsett av Q-interactive på iPads",
+      "status": "Inntakskø",
+      "assignmentGroup": "Kliniske spesialiteter",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 104
+    },
+    {
+      "id": "RF21511",
+      "number": "RF21511",
+      "title": "1639 Mine timeavtaler på Helsenorge («push» / «pull»), HN",
+      "status": "Inntakskø",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 105
+    },
+    {
+      "id": "RF21526",
+      "number": "RF21526",
+      "title": "1683 Push av henvisningsstatus, HN",
+      "status": "Inntakskø",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 106
+    },
+    {
+      "id": "RF21543",
+      "number": "RF21543",
+      "title": "1682 Pasientinvolvert planlegging leveranse, HN",
+      "status": "Inntakskø",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 107
+    },
+    {
+      "id": "RF21544",
+      "number": "RF21544",
+      "title": "1531 - Endring av enkelttimer på Helsenorge, HN",
+      "status": "Inntakskø",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 108
+    },
+    {
+      "id": "RF21560",
+      "number": "RF21560",
+      "title": "Implementasjon av makrobenker og webkamera",
+      "status": "Inntakskø",
+      "assignmentGroup": "Laboratorietjenester",
+      "phasePlaceholder": "2. løsningsdesign",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 109
+    }
+  ]
+}
