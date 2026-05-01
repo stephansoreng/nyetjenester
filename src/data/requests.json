@@ -3,8 +3,11 @@
     "sourceFile": "nye tjenester 30.04 - kliniske.xlsx",
     "sourcePath": "input\\nye tjenester 30.04 - kliniske.xlsx",
     "sheetName": "export",
-    "importedAt": "2026-04-30T14:25:06.014Z",
-    "total": 108
+    "epjSourceFile": "features_EPJ.xlsx",
+    "importedAt": "2026-05-01T11:50:49.900Z",
+    "total": 251,
+    "totalMain": 108,
+    "totalEpj": 143
   },
   "requests": [
     {
@@ -1086,6 +1089,1436 @@
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
       "sourceRow": 109
+    },
+    {
+      "id": "DS149",
+      "number": "DS149",
+      "title": "DMR-DS149: Avklar behovet som dekkes av dagens utdaterte MX-01 server - Test (erstatte server med utdatert OS)",
+      "status": "PI-Backlog",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 2
+    },
+    {
+      "id": "DS053",
+      "number": "DS053",
+      "title": "DMR-DS053: Etterarbeid på og sletting av MX server.",
+      "status": "PI-Backlog",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 3
+    },
+    {
+      "id": "EPJ115",
+      "number": "EPJ115",
+      "title": "EPJ115 Import av SMS - innføring",
+      "status": "Blokkert",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 4
+    },
+    {
+      "id": "DS155",
+      "number": "DS155",
+      "title": "DMR-DS155: Sertifikatbytte HSYK",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 5
+    },
+    {
+      "id": "DS052",
+      "number": "DS052",
+      "title": "DMR-DS052: Migrering EDI-server avvikling av gamle adresser (Prod)",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 6
+    },
+    {
+      "id": "DS035",
+      "number": "DS035",
+      "title": "DHO-DS035: Kommunal journal (Innsiktsarbeid/planlegging)",
+      "status": "PI-Backlog",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 7
+    },
+    {
+      "id": "DS153",
+      "number": "DS153",
+      "title": "DHO-DS153: Kaiku UC1 Etterarbeid og ferdigstilling (PDF i DIPS):",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 8
+    },
+    {
+      "id": "DS154",
+      "number": "DS154",
+      "title": "DMR-DS154: AR Sync migrering til Kubernetes",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 9
+    },
+    {
+      "id": "DS101",
+      "number": "DS101",
+      "title": "DHO-DS101: DIS - DHO PAS - Utviklingsløp (Planlegging av videre forløp) - Vurdering / evaluering",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 10
+    },
+    {
+      "id": "DS143",
+      "number": "DS143",
+      "title": "DHO-DS143: Kaiku UC2 Embedded versjon til et av våre testmiljø",
+      "status": "PI-Backlog",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 11
+    },
+    {
+      "id": "DS105",
+      "number": "DS105",
+      "title": "DHO-DS105: NLSH ShareIT - UC3 Invitere pasient fra EPJ til DHO løsning (Innsiktsarbeid)",
+      "status": "PI-Backlog",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 12
+    },
+    {
+      "id": "EPJ070",
+      "number": "EPJ070",
+      "title": "EPJ070: Forberedelser ny løsning for Pakkeforløp psykisk helse og rus. Bestilling: CH126078",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 13
+    },
+    {
+      "id": "EPJ099",
+      "number": "EPJ099",
+      "title": "EPJ099: Ny vedtaksmodul for tvangsvedtak i psykiatri - myndighetskrav. Bestilling: CH126079",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 14
+    },
+    {
+      "id": "EPJ129",
+      "number": "EPJ129",
+      "title": "EPJ129: Pilotering H-Resept ved UNN. Bestilling: CH126077",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 15
+    },
+    {
+      "id": "DS111",
+      "number": "DS111",
+      "title": "DHI-DS111: Klinisk Video Teams Incident/retrospectiv teknisk løsning.",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 16
+    },
+    {
+      "id": "DS139",
+      "number": "DS139",
+      "title": "SPD-DS139: DIS Ruting av Helsenorge-skjema fra Sectra digitale innkallingsbrev",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 17
+    },
+    {
+      "id": "EPJ108",
+      "number": "EPJ108",
+      "title": "EPJ108: Bestilling av DIPS-rolle i tilgangsportal - IAM2-prosjektet - ressursbidrag",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 18
+    },
+    {
+      "id": "EPJ086",
+      "number": "EPJ086",
+      "title": "EPJ086: Gastronett og DIPS Arena - Etablere integrasjon - i produksjon",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 19
+    },
+    {
+      "id": "EPJ020",
+      "number": "EPJ020",
+      "title": "EPJ020: DIS - Syntetisk utviklingsmiljø (sandkassemiljø)",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 20
+    },
+    {
+      "id": "EPJ065",
+      "number": "EPJ065",
+      "title": "EPJ065: Muliggjøre SSO på Arena Mobil",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 21
+    },
+    {
+      "id": "DS110",
+      "number": "DS110",
+      "title": "DHI-DS110: Klinisk Video Teams Oversikt over utførte konsultasjoner filtrert for hvert foretak",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 22
+    },
+    {
+      "id": "EPJ085",
+      "number": "EPJ085",
+      "title": "EPJ085: SMS-appointment lage plan for migrering av NLSH",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 23
+    },
+    {
+      "id": "EPJ103",
+      "number": "EPJ103",
+      "title": "EPJ103: Videreutvikling av operasjonsmodulen - deltakelse i anskaffelse",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 24
+    },
+    {
+      "id": "EPJ005",
+      "number": "EPJ005",
+      "title": "EPJ005: Oppinord - Anskaffelse - Operasjonsplanlegging - ressursbidrag",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 25
+    },
+    {
+      "id": "DS193",
+      "number": "DS193",
+      "title": "DHI-DS193: Bidra med innsikt til prosjektet sectra innkallingsbrev",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 26
+    },
+    {
+      "id": "DS145",
+      "number": "DS145",
+      "title": "SPD-DS145: Automatiserte tester Arena kolonner",
+      "status": "PI-Backlog",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 27
+    },
+    {
+      "id": "EPJ071",
+      "number": "EPJ071",
+      "title": "EPJ071: Planlegge innføring av ny betalingsløsning på kioskene",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 28
+    },
+    {
+      "id": "DS190",
+      "number": "DS190",
+      "title": "DHI-DS190: API Akuttsperre - innsiktsarbeid",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 29
+    },
+    {
+      "id": "DS130",
+      "number": "DS130",
+      "title": "DMR-DS130: Sending og motta av svar til/fra andre regioner (EDI) - Helse Vest​",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 30
+    },
+    {
+      "id": "EPJ106",
+      "number": "EPJ106",
+      "title": "EPJ106: Kartlegging og utfasing av eldre integrasjonsmekanismer for DIPS.",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 31
+    },
+    {
+      "id": "DS065",
+      "number": "DS065",
+      "title": "DHI-DS065: Slå på dokumentbaserte prøvesvar",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 32
+    },
+    {
+      "id": "DS132",
+      "number": "DS132",
+      "title": "DMR-DS132: Sending og  mottak av svar til/fra andre regioner (EDI) - Helse Sør-Øst​",
+      "status": "PI-Backlog",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 33
+    },
+    {
+      "id": "DS116",
+      "number": "DS116",
+      "title": "SPD-DS116: DIS -Personskadeskjema – utvikling og tilgjengeliggjøring i Helsenorge",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 34
+    },
+    {
+      "id": "EPJ128",
+      "number": "EPJ128",
+      "title": "Tale til Sammendrag (TTS) - SAKS innføring",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 35
+    },
+    {
+      "id": "DS056",
+      "number": "DS056",
+      "title": "DHI-DS056: DIS - Flytting av helsekontakt (DDBE) - Ny funksjonalitet.",
+      "status": "Blokkert",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 36
+    },
+    {
+      "id": "DS087",
+      "number": "DS087",
+      "title": "SPD-DS087: DIS - Digitalisering av livskvalitetsmåling for hofteprotese  (Arketype HOOS)",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 37
+    },
+    {
+      "id": "DS196",
+      "number": "DS196",
+      "title": "DHI-DS196: Klinisk Video Overgang til Teams som leverandør NLSH",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 38
+    },
+    {
+      "id": "DS050",
+      "number": "DS050",
+      "title": "DMR-DS050: CFC – Installajon i test/utv-miljø",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 39
+    },
+    {
+      "id": "DS089",
+      "number": "DS089",
+      "title": "SPD-DS089: DIS - Digitalisering av livskvalitetsmåling for hofteprotese – (Arketype for Harris Hip Score)",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 40
+    },
+    {
+      "id": "EPJ087",
+      "number": "EPJ087",
+      "title": "EPJ087: HSYK-matbestilling  - i pilotproduksjon",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 41
+    },
+    {
+      "id": "EPJ095",
+      "number": "EPJ095",
+      "title": "EPJ095: Strukturert innkomst og epikrise - i pilotproduksjon",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 42
+    },
+    {
+      "id": "DS049",
+      "number": "DS049",
+      "title": "DMR-DS049: Videresending av henvisning (ikke rettighetsvurdert)",
+      "status": "PI-Backlog",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 43
+    },
+    {
+      "id": "DS009",
+      "number": "DS009",
+      "title": "DS009 SPD: Erstatte Procom skjema for Stråleterapirekvisisjon i DIPS​",
+      "status": "Blokkert",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 44
+    },
+    {
+      "id": "DS142",
+      "number": "DS142",
+      "title": "DHI-DS142: DIS - Fleksibel dialog barn og unge 12-16",
+      "status": "Blokkert",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 45
+    },
+    {
+      "id": "DS194",
+      "number": "DS194",
+      "title": "DHI-DS194: Volvenkategorisering og delingskanal dokumenttyper",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 46
+    },
+    {
+      "id": "DS112",
+      "number": "DS112",
+      "title": "SPD-DS112: DIS - Bekkensenterskjema Urinlekkasje NKIR",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 47
+    },
+    {
+      "id": "DS195",
+      "number": "DS195",
+      "title": "DHI-DS195: Funksjonell dokumentasjon på tjenester",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 48
+    },
+    {
+      "id": "DS198",
+      "number": "DS198",
+      "title": "DHI-DS198: Utbedring Video: Gruppebehandling",
+      "status": "Blokkert",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 49
+    },
+    {
+      "id": "DS151",
+      "number": "DS151",
+      "title": "SPD-DS151: DIS - IVF samtykke – utvikling og tilgjengeliggjøring",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 50
+    },
+    {
+      "id": "DS150",
+      "number": "DS150",
+      "title": "SPD-DS150: DIS - IVF egenerklæring – utvikling og tilgjengeliggjøring",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 51
+    },
+    {
+      "id": "DS117",
+      "number": "DS117",
+      "title": "SPD-DS117: DIS - Bekkensenterskjema ODSS m/ Wexner skåringsskjemaet",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 52
+    },
+    {
+      "id": "DS124",
+      "number": "DS124",
+      "title": "SPD-DS124: DIS - Helseopplysningsskjema – bredding til UNN",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 53
+    },
+    {
+      "id": "DS113",
+      "number": "DS113",
+      "title": "SPD-DS113: DIS - NORGAST PROM (QoR-15) – tilgjengeliggjøring og pilot",
+      "status": "PI-Backlog",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 54
+    },
+    {
+      "id": "EPJ072",
+      "number": "EPJ072",
+      "title": "EPJ072: GODT-planlagt integrasjon GAT-DIPS monitorering grensesnitt",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 55
+    },
+    {
+      "id": "DS115",
+      "number": "DS115",
+      "title": "SPD-DS115: DIS - NORGAST PROM; innsikt og gevinstgrunnlag",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 56
+    },
+    {
+      "id": "DS165",
+      "number": "DS165",
+      "title": "SPD-DS165: DIS Hofteproteseskjema – ferdigstillelse og klargjøring for bruk",
+      "status": "PI-Backlog",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 57
+    },
+    {
+      "id": "DS166",
+      "number": "DS166",
+      "title": "SPD-DS166: DIS Hofteproteseskjema – innføring ved helseforetak",
+      "status": "PI-Backlog",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 58
+    },
+    {
+      "id": "DS167",
+      "number": "DS167",
+      "title": "SPD-DS167: DIS Bekkensenterskjema – innføring ved NLSH (evt også HSYK og FIN)",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 59
+    },
+    {
+      "id": "DS169",
+      "number": "DS169",
+      "title": "SPD-DS169: Hjerneslag – strukturert dokument for tverrfaglig vurdering",
+      "status": "PI-Backlog",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 60
+    },
+    {
+      "id": "DS184",
+      "number": "DS184",
+      "title": "SPD-DS184: BCG – Bidrag til modellering og utvikling (20% kapasitet) (RF14994 )",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 61
+    },
+    {
+      "id": "DS164",
+      "number": "DS164",
+      "title": "SPD-DS164: DIS Beintetthetsskjema – innføring ved flere HF",
+      "status": "PI-Backlog",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 62
+    },
+    {
+      "id": "DS168",
+      "number": "DS168",
+      "title": "SPD-DS168: DIS Avklare bruk av syntetisk testmiljø for Team SPD",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 63
+    },
+    {
+      "id": "DS183",
+      "number": "DS183",
+      "title": "SPD-DS183: Sikre teamkompetanse på CheckWare",
+      "status": "PI-Backlog",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 64
+    },
+    {
+      "id": "DS181",
+      "number": "DS181",
+      "title": "SPD-DS181: SJK – Interregional modellering (20% bidrag)",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 65
+    },
+    {
+      "id": "DS174",
+      "number": "DS174",
+      "title": "SPD-DS174: DIS Kartlegge og foreslå struktur for deling av pasientskjema på tvers av regioner",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 66
+    },
+    {
+      "id": "EPJ140",
+      "number": "EPJ140",
+      "title": "EPJ140 - Blokkere SMS iht kontakt- og reservasjonsregisteret - utredning",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 67
+    },
+    {
+      "id": "EPJ112",
+      "number": "EPJ112",
+      "title": "EPJ112: Lage konsept for håndtering av fortløpende mindre endringer",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 68
+    },
+    {
+      "id": "EPJ077",
+      "number": "EPJ077",
+      "title": "EPJ077: Avklare arbeidsdeling vedr DIPS K8S produkter",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 69
+    },
+    {
+      "id": "EPJ154",
+      "number": "EPJ154",
+      "title": "EPJ154 Ny kopi av prod tilgjengeliggjort i testmiljøer",
+      "status": "",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 70
+    },
+    {
+      "id": "EPJ156",
+      "number": "EPJ156",
+      "title": "EPJ156 SOAS-R skjema med tilhørende rapportering tilgjengelig for regionale sikkerhetsavdelinger (RF19805)",
+      "status": "PI-Backlog",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 71
+    },
+    {
+      "id": "EPJ006",
+      "number": "EPJ006",
+      "title": "EPJ006: DIS - Kritisk Informasjon - Integrasjon  mot kjernejournal",
+      "status": "Blokkert",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 72
+    },
+    {
+      "id": "EPJ152",
+      "number": "EPJ152",
+      "title": "EPJ152: Etablere ny endringslogg for DIPS",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 73
+    },
+    {
+      "id": "DS203",
+      "number": "DS203",
+      "title": "DHI-DS203: 1531 - Endring av enkelttimer på Helsenorge",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 74
+    },
+    {
+      "id": "DS202",
+      "number": "DS202",
+      "title": "DHI-DS202: 1639 Mine timeavtaler på Helsenorge («push» / «pull») - Innsikt",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 75
+    },
+    {
+      "id": "DS201 b",
+      "number": "DS201 b",
+      "title": "DHI-DS202: 1683 Push av henvisningsstatus - innsiktsarbeid",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 76
+    },
+    {
+      "id": "EPJ016",
+      "number": "EPJ016",
+      "title": "EPJ016: Retina risk web app - Avklare ressurser - Løsningsdesign for API mot ekstern programvare",
+      "status": "Blokkert",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 77
+    },
+    {
+      "id": "DS131",
+      "number": "DS131",
+      "title": "DMR-DS131: Sending og mottak av svar til/fra andre regioner (EDI) - Helse Midt​",
+      "status": "PI-Backlog",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 78
+    },
+    {
+      "id": "EPJ139",
+      "number": "EPJ139",
+      "title": "EPJ139 - Syntetiske virksomheter i testmiljøer - høringssvar",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 79
+    },
+    {
+      "id": "EPJ119",
+      "number": "EPJ119",
+      "title": "DHI-EPJ119: Digitalisering av skjema for sperring av journal",
+      "status": "Ideer og ønsker",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 80
+    },
+    {
+      "id": "DS160",
+      "number": "DS160",
+      "title": "DHO-DS160: Ny versjon GoTreatIT",
+      "status": "Ideer og ønsker",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 81
+    },
+    {
+      "id": "DS162",
+      "number": "DS162",
+      "title": "DHO-DS162: Rydding av dokumentasjon i Løsningsbiblioteket",
+      "status": "Ideer og ønsker",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 82
+    },
+    {
+      "id": "DS163",
+      "number": "DS163",
+      "title": "DHI-DS163: Re-etablering av GTI servere",
+      "status": "Ideer og ønsker",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 83
+    },
+    {
+      "id": "DS201",
+      "number": "DS201",
+      "title": "DHO-DS201: Slå på AD-autentisering for GoTreatIT",
+      "status": "Ideer og ønsker",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 84
+    },
+    {
+      "id": "EPJ155",
+      "number": "EPJ155",
+      "title": "EPJ155 Eyecare - Automatisert arbeidsflyt for diabetisk netthinnefoto",
+      "status": "",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 85
+    },
+    {
+      "id": "EPJ127",
+      "number": "EPJ127",
+      "title": "EPJ127 - Implementere fødselsmelding integrasjon mellom NHN/PARTUS og DIPS",
+      "status": "Under analyse",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 86
+    },
+    {
+      "id": "EPJ019",
+      "number": "EPJ019",
+      "title": "EPJ019: Tidsplan for nytt kursmiljø - teknisk PE",
+      "status": "Under analyse",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 87
+    },
+    {
+      "id": "EPJ084",
+      "number": "EPJ084",
+      "title": "EPJ084: DIS - Første leveranse av pasientinvolvert planlegging",
+      "status": "PI-Backlog",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 88
+    },
+    {
+      "id": "EPJ083",
+      "number": "EPJ083",
+      "title": "EPJ083: DIS - Første leveranse av timer 2.0",
+      "status": "PI-Backlog",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 89
+    },
+    {
+      "id": "DS034",
+      "number": "DS034",
+      "title": "DHO-DS034: Datadeling fra DIPS til Aiden, Timer (Innsiktsarbeid/planlegging)",
+      "status": "Ideer og ønsker",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 90
+    },
+    {
+      "id": "DS104",
+      "number": "DS104",
+      "title": "DHO-DS104: Dignio integrasjon i DIPS (Innsiktsarbeid og vurder installasjon i Testmiljø)",
+      "status": "Ideer og ønsker",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 91
+    },
+    {
+      "id": "DS147",
+      "number": "DS147",
+      "title": "DHO-DS147: DIS - Datadeling DIPS til eksterne",
+      "status": "Ideer og ønsker",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 92
+    },
+    {
+      "id": "DS159",
+      "number": "DS159",
+      "title": "DHO-DS159: Oppkobling mot FALK for autentisering mot NorVAS og NorArtritt",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 93
+    },
+    {
+      "id": "DS161",
+      "number": "DS161",
+      "title": "DHO-DS161: GTI Deaktivering av DIPS (Link?) View, overgang til HL7 - innsikt",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 94
+    },
+    {
+      "id": "EPJ100-a",
+      "number": "EPJ100-a",
+      "title": "EPJ100-a: Syntetisk utviklingsmiljø -drift/forvaltningsrutiner og -konsekvens",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 95
+    },
+    {
+      "id": "DS123",
+      "number": "DS123",
+      "title": "SPD-DS123: DIS-Pasientskjema til Helsenorge – Breddning Helseopplysningsskjema FIN",
+      "status": "Ideer og ønsker",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 96
+    },
+    {
+      "id": "DS051",
+      "number": "DS051",
+      "title": "DMR-DS051: CFC – Arkitektur og tekniske avklaringer rundt",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 98
+    },
+    {
+      "id": "DS157",
+      "number": "DS157",
+      "title": "DHI-DS157: PPS: Arena Order Management(AOM) inn i miljøer",
+      "status": "Blokkert",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 99
+    },
+    {
+      "id": "EPJ109",
+      "number": "EPJ109",
+      "title": "EPJ109: Phillips remote management innføring",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 101
+    },
+    {
+      "id": "DS156",
+      "number": "DS156",
+      "title": "DMR-DS156: Nytt journalsystem testlegekontor (Innsikt)",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 102
+    },
+    {
+      "id": "EPJ111",
+      "number": "EPJ111",
+      "title": "EPJ111: Smart journal - KI-satsing i pilot-produksjon",
+      "status": "Til regional beslutning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 103
+    },
+    {
+      "id": "EPJ121",
+      "number": "EPJ121",
+      "title": "EPJ121 - Side for kreft i pilot i UNN",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 105
+    },
+    {
+      "id": "EPJ122",
+      "number": "EPJ122",
+      "title": "EPJ122 - Modul for MDT i pilot i UNN",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 106
+    },
+    {
+      "id": "DS197",
+      "number": "DS197",
+      "title": "DHI-DS197: Forbedringer innsynslogg",
+      "status": "Blokkert",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 107
+    },
+    {
+      "id": "EPJ141",
+      "number": "EPJ141",
+      "title": "EPJ141 KUBOOK - forbedre påloggingsopplevelsen for brukerne",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 108
+    },
+    {
+      "id": "EPJ144",
+      "number": "EPJ144",
+      "title": "EPJ144 Installering av NMC statistikkverktøy",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 109
+    },
+    {
+      "id": "EPJ026",
+      "number": "EPJ026",
+      "title": "EPJ026: Omilon talegjenkjenning i Test på Arena mobil",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 110
+    },
+    {
+      "id": "EPJ120",
+      "number": "EPJ120",
+      "title": "EPJ120 - Oppsett av Pasientens rekvisisjoner (PAREK) Rekvisisjonshotell",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 111
+    },
+    {
+      "id": "DS114",
+      "number": "DS114",
+      "title": "SPD-DS114: DIS - NORGAST PROM (QoR-15) – registeroverføring",
+      "status": "Ideer og ønsker",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 112
+    },
+    {
+      "id": "EPJ135",
+      "number": "EPJ135",
+      "title": "EPJ135 Godt planlagt i produksjon",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 113
+    },
+    {
+      "id": "EPJ082",
+      "number": "EPJ082",
+      "title": "EPJ082: DIS - Innsjekk og betaling på Helsenorge",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 114
+    },
+    {
+      "id": "DS172",
+      "number": "DS172",
+      "title": "SPD-DS172: DIS Ventelisteskjema – avklare behov og løsning (Helgelandssykehuset)",
+      "status": "Ideer og ønsker",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 116
+    },
+    {
+      "id": "DS178",
+      "number": "DS178",
+      "title": "SPD-DS178: DIS Ventelisteskjema – utvikling og tilgjengeliggjøring (Helgelandssykehuset)",
+      "status": "Ideer og ønsker",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 117
+    },
+    {
+      "id": "DS180",
+      "number": "DS180",
+      "title": "SPD-DS180: Gjennomgang og prioritering av backlog – Helhetlig forvaltning",
+      "status": "PI-Backlog",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 118
+    },
+    {
+      "id": "DS185",
+      "number": "DS185",
+      "title": "SPD-DS185: Strukturert Kreftjournal Overføring av innsikt til regional prosjektleder for SJK",
+      "status": "Ideer og ønsker",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 119
+    },
+    {
+      "id": "DS182",
+      "number": "DS182",
+      "title": "SPD-DS182: DIS Etablere regionalt utredningsråd for strukturerte pasientdata",
+      "status": "Ideer og ønsker",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 120
+    },
+    {
+      "id": "DS170",
+      "number": "DS170",
+      "title": "SPD-DS170: Kompetansebygging innen openEHR gjennom deltakelse på EHRCON26",
+      "status": "Ideer og ønsker",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 121
+    },
+    {
+      "id": "DS173",
+      "number": "DS173",
+      "title": "SPD-DS173: DIS Brokkskjema – avklare behov og samarbeid (Helse Nord)",
+      "status": "Ideer og ønsker",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 122
+    },
+    {
+      "id": "DS179",
+      "number": "DS179",
+      "title": "SPD-DS179: DIS Brokkskjema – utvikling og tilgjengeliggjøring",
+      "status": "Ideer og ønsker",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 123
+    },
+    {
+      "id": "DS176",
+      "number": "DS176",
+      "title": "SPD-DS176: DIS Kartlegge bruk og potensial for reduksjon av Checkware i Helse Nord",
+      "status": "PI-Backlog",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 125
+    },
+    {
+      "id": "EPJ142",
+      "number": "EPJ142",
+      "title": "SPKI - oppfølging av prosjektet",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 126
+    },
+    {
+      "id": "EPJ138",
+      "number": "EPJ138",
+      "title": "EPJ138 Plan for hvordan tilfredsstille brukerbehov når classic-rapportene blir utfaset",
+      "status": "Ideer og ønsker",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 128
+    },
+    {
+      "id": "ax",
+      "number": "ax",
+      "title": "ax",
+      "status": "",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 129
+    },
+    {
+      "id": "ay",
+      "number": "ay",
+      "title": "DIPS Communicator Oppgradering",
+      "status": "Ideer og ønsker",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 130
+    },
+    {
+      "id": "az",
+      "number": "az",
+      "title": "az",
+      "status": "",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 131
+    },
+    {
+      "id": "EPJ133",
+      "number": "EPJ133",
+      "title": "EPJ133 Overgang til Convene som betalingsløsning og overføring av fakturautsending",
+      "status": "PI-Backlog",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 132
+    },
+    {
+      "id": "EPJ023",
+      "number": "EPJ023",
+      "title": "EPJ023: Testing av alternative løsninger for å hente ut journaldata til HN-LIS",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 133
+    },
+    {
+      "id": "EPJ151",
+      "number": "EPJ151",
+      "title": "EPJ151 Automatiserte tester for DIPS - område Henvisning",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 134
+    },
+    {
+      "id": "EPJ153",
+      "number": "EPJ153",
+      "title": "EPJ153 Leveransetoget har en komplett backlog for neste planintervall",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 135
+    },
+    {
+      "id": "EPJ130",
+      "number": "EPJ130",
+      "title": "EPJ130 Viderutvikling av PLL",
+      "status": "Under analyse",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 136
+    },
+    {
+      "id": "EPJ136",
+      "number": "EPJ136",
+      "title": "EPJ136 Ny NPR-rapportering for vedtak og ppr - Denne kan vel slettes...?",
+      "status": "",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 137
+    },
+    {
+      "id": "EPJ124",
+      "number": "EPJ124",
+      "title": "EPJ124 Rapport over Risikokartlegging for ernæringsmessig risiko i produksjon (RF13968)",
+      "status": "Under arbeid",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Gjennomføring",
+      "sourceRow": 138
+    },
+    {
+      "id": "EPJ123",
+      "number": "EPJ123",
+      "title": "EPJ123 DIPS-understøttelse av varsling rundt pasienter som behandles av Klozapin (RF20359)",
+      "status": "Under analyse",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 139
+    },
+    {
+      "id": "EPJ125",
+      "number": "EPJ125",
+      "title": "Ny signeringsløsning på sykmelding i Arena. Bestilling: CH125905",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 140
+    },
+    {
+      "id": "EPJ126",
+      "number": "EPJ126",
+      "title": "Sectra pasientskjema",
+      "status": "Under analyse",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 141
+    },
+    {
+      "id": "EPJ132",
+      "number": "EPJ132",
+      "title": "EPJ132 Beslutte hvilket system intervensjonsskjema for radiologi skal plasseres i",
+      "status": "Under analyse",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 142
+    },
+    {
+      "id": "EPJ134",
+      "number": "EPJ134",
+      "title": "EPJ134 Omilon-oppgradering",
+      "status": "Under analyse",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 143
+    },
+    {
+      "id": "EPJ150",
+      "number": "EPJ150",
+      "title": "EPJ: 1682 Pasientinvolvert planlegging - utredning",
+      "status": "Klar for PI-planning",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Inntakskø",
+      "sourceRow": 144
+    },
+    {
+      "id": "EPJ091",
+      "number": "EPJ091",
+      "title": "EPJ091: Utvikling nye DIPS Admin - Ressursbidrag til DIPS-utvikling",
+      "status": "PI-Backlog",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 145
+    },
+    {
+      "id": "EPJ088",
+      "number": "EPJ088",
+      "title": "EPJ088: Beslutte prinsipper for forvaltning av \"uthopp\" fra DIPS",
+      "status": "Under analyse",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 146
+    },
+    {
+      "id": "EPJ097",
+      "number": "EPJ097",
+      "title": "EPJ097: Revisjon: Brukerroller i DIPS",
+      "status": "Under analyse",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 147
+    },
+    {
+      "id": "EPJ096",
+      "number": "EPJ096",
+      "title": "EPJ096: Understøtte RPA-utvikling ved NLSH PI26.1",
+      "status": "Under analyse",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 148
+    },
+    {
+      "id": "EPJ105",
+      "number": "EPJ105",
+      "title": "EPJ105: Etablere struktur og maler for helhetlig dokumentasjon av DIPS og Partus",
+      "status": "PI-Backlog",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Foreslåtte initiativ",
+      "sourceRow": 149
+    },
+    {
+      "id": "EPJ113",
+      "number": "EPJ113",
+      "title": "EPJ113: NPR-rapportering (nye krav psykiatri)",
+      "status": "Under analyse",
+      "assignmentGroup": "EPJ - Produktområdeledelse",
+      "phasePlaceholder": "",
+      "derivedPhase": "Løsningsdesign",
+      "sourceRow": 150
     }
   ]
 }

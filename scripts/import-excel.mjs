@@ -7,6 +7,9 @@ const inputDir = path.join(root, "input");
 const outputDir = path.join(root, "src", "data");
 const outputFile = path.join(outputDir, "requests.json");
 
+const EPJ_FILE = path.join(inputDir, "features_EPJ.xlsx");
+const EPJ_ASSIGNMENT_GROUP = "EPJ - Produktområdeledelse";
+
 const requiredColumns = [
   "Number",
   "Status",
@@ -14,6 +17,8 @@ const requiredColumns = [
   "Assignment Group",
   "Hn Phase Placeholder",
 ];
+
+const epjRequiredColumns = ["Feature_ID", "Feature navn", "Status"];
 
 const phaseLabels = {
   proposed: "Foreslåtte initiativ",
@@ -33,12 +38,14 @@ function normalize(value) {
 }
 
 function findLatestExcelFile() {
+  const epjBasename = path.basename(EPJ_FILE).toLowerCase();
   const candidates = [];
   for (const dir of [inputDir, root]) {
     if (!fs.existsSync(dir)) continue;
     for (const file of fs.readdirSync(dir)) {
       if (file.startsWith("~$")) continue;
       if (!file.toLowerCase().endsWith(".xlsx")) continue;
+      if (file.toLowerCase() === epjBasename) continue;
       candidates.push(path.join(dir, file));
     }
     if (candidates.length > 0 && dir === inputDir) break;
@@ -62,6 +69,24 @@ function derivePhase(status, phasePlaceholder) {
   return phaseLabels.unclassified;
 }
 
+function deriveEpjPhase(status) {
+  switch (normalize(status)) {
+    case "blokkert":
+    case "under arbeid":
+      return phaseLabels.execution;
+    case "klar for pi-planning":
+      return phaseLabels.intake;
+    case "under analyse":
+      return phaseLabels.design;
+    case "pi-backlog":
+    case "ideer og ønsker":
+    case "":
+      return phaseLabels.proposed;
+    default:
+      return phaseLabels.proposed;
+  }
+}
+
 function findColumn(headers, wanted) {
   const wantedKey = normalize(wanted);
   return headers.findIndex((header) => normalize(header) === wantedKey);
@@ -79,6 +104,107 @@ function cellToText(value) {
   return String(value).trim();
 }
 
+async function importMainFile(sourceFile) {
+  const workbook = new ExcelJS.Workbook();
+  await workbook.xlsx.readFile(sourceFile);
+  const sheet = workbook.worksheets[0];
+  if (!sheet) throw new Error("Fant ingen arkfaner i Excel-filen.");
+
+  const headerRow = sheet.getRow(1);
+  const headers = [];
+  headerRow.eachCell({ includeEmpty: true }, (cell, colNumber) => {
+    headers[colNumber - 1] = cellToText(cell.value);
+  });
+
+  const columnMap = Object.fromEntries(
+    requiredColumns.map((column) => [column, findColumn(headers, column)])
+  );
+
+  const missingColumns = requiredColumns.filter((column) => columnMap[column] === -1);
+  if (missingColumns.length > 0) {
+    throw new Error(`Mangler kolonner i Excel-arket: ${missingColumns.join(", ")}`);
+  }
+
+  const requests = [];
+  sheet.eachRow({ includeEmpty: false }, (row, rowNumber) => {
+    if (rowNumber === 1) return;
+    const get = (column) => cellToText(row.getCell(columnMap[column] + 1).value);
+    const number = get("Number");
+    const title = get("Title");
+    const status = get("Status");
+    const assignmentGroup = get("Assignment Group") || "Uten eier";
+    const phasePlaceholder = get("Hn Phase Placeholder");
+    if (!number && !title) return;
+    requests.push({
+      id: number || `rad-${rowNumber}`,
+      number,
+      title,
+      status,
+      assignmentGroup,
+      phasePlaceholder,
+      derivedPhase: derivePhase(status, phasePlaceholder),
+      sourceRow: rowNumber,
+    });
+  });
+
+  return { sheet, requests };
+}
+
+async function importEpjFile() {
+  if (!fs.existsSync(EPJ_FILE)) {
+    console.warn(`[import-excel] ${path.relative(root, EPJ_FILE)} ikke funnet — hopper over EPJ-import.`);
+    return [];
+  }
+
+  const workbook = new ExcelJS.Workbook();
+  await workbook.xlsx.readFile(EPJ_FILE);
+  const sheet = workbook.worksheets[0];
+  if (!sheet) throw new Error("Fant ingen arkfaner i features_EPJ.xlsx.");
+
+  const headerRow = sheet.getRow(1);
+  const headers = [];
+  headerRow.eachCell({ includeEmpty: true }, (cell, colNumber) => {
+    headers[colNumber - 1] = cellToText(cell.value);
+  });
+
+  const columnMap = Object.fromEntries(
+    epjRequiredColumns.map((column) => [column, findColumn(headers, column)])
+  );
+
+  const missingColumns = epjRequiredColumns.filter((column) => columnMap[column] === -1);
+  if (missingColumns.length > 0) {
+    throw new Error(`Mangler kolonner i features_EPJ.xlsx: ${missingColumns.join(", ")}`);
+  }
+
+  const requests = [];
+  sheet.eachRow({ includeEmpty: false }, (row, rowNumber) => {
+    if (rowNumber === 1) return;
+    const get = (column) => cellToText(row.getCell(columnMap[column] + 1).value);
+    const number = get("Feature_ID");
+    const title = get("Feature navn");
+    const status = get("Status");
+
+    if (!number && !title) return;
+    if (normalize(status) === "kansellert") return;
+
+    requests.push({
+      id: number || `epj-rad-${rowNumber}`,
+      number,
+      title,
+      status,
+      assignmentGroup: EPJ_ASSIGNMENT_GROUP,
+      phasePlaceholder: "",
+      derivedPhase: deriveEpjPhase(status),
+      sourceRow: rowNumber,
+    });
+  });
+
+  console.log(`Importerte ${requests.length} EPJ-saker fra ${path.relative(root, EPJ_FILE)}.`);
+  return requests;
+}
+
+// --- Kjør import ---
+
 const sourceFile = findLatestExcelFile();
 if (!sourceFile) {
   console.warn(
@@ -88,66 +214,27 @@ if (!sourceFile) {
   process.exit(0);
 }
 
-const workbook = new ExcelJS.Workbook();
-await workbook.xlsx.readFile(sourceFile);
-const sheet = workbook.worksheets[0];
-const sheetName = sheet?.name;
-if (!sheet) {
-  throw new Error("Fant ingen arkfaner i Excel-filen.");
-}
+const { sheet, requests: mainRequests } = await importMainFile(sourceFile);
+const epjRequests = await importEpjFile();
 
-const headerRow = sheet.getRow(1);
-const headers = [];
-headerRow.eachCell({ includeEmpty: true }, (cell, colNumber) => {
-  headers[colNumber - 1] = cellToText(cell.value);
-});
-
-const columnMap = Object.fromEntries(
-  requiredColumns.map((column) => [column, findColumn(headers, column)])
-);
-
-const missingColumns = requiredColumns.filter((column) => columnMap[column] === -1);
-if (missingColumns.length > 0) {
-  throw new Error(`Mangler kolonner i Excel-arket: ${missingColumns.join(", ")}`);
-}
-
-const requests = [];
-sheet.eachRow({ includeEmpty: false }, (row, rowNumber) => {
-  if (rowNumber === 1) return;
-
-  const get = (column) => cellToText(row.getCell(columnMap[column] + 1).value);
-  const number = get("Number");
-  const title = get("Title");
-  const status = get("Status");
-  const assignmentGroup = get("Assignment Group") || "Uten eier";
-  const phasePlaceholder = get("Hn Phase Placeholder");
-
-  if (!number && !title) return;
-
-  requests.push({
-    id: number || `rad-${rowNumber}`,
-    number,
-    title,
-    status,
-    assignmentGroup,
-    phasePlaceholder,
-    derivedPhase: derivePhase(status, phasePlaceholder),
-    sourceRow: rowNumber,
-  });
-});
+const allRequests = [...mainRequests, ...epjRequests];
 
 const payload = {
   metadata: {
     sourceFile: path.basename(sourceFile),
     sourcePath: path.relative(root, sourceFile),
-    sheetName,
+    sheetName: sheet.name,
+    epjSourceFile: fs.existsSync(EPJ_FILE) ? path.basename(EPJ_FILE) : null,
     importedAt: new Date().toISOString(),
-    total: requests.length,
+    total: allRequests.length,
+    totalMain: mainRequests.length,
+    totalEpj: epjRequests.length,
   },
-  requests,
+  requests: allRequests,
 };
 
 fs.mkdirSync(outputDir, { recursive: true });
 fs.writeFileSync(outputFile, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
 
-console.log(`Importerte ${requests.length} saker fra ${path.relative(root, sourceFile)}.`);
+console.log(`Importerte ${mainRequests.length} saker fra ${path.relative(root, sourceFile)}.`);
+console.log(`Totalt ${allRequests.length} saker skrevet til ${path.relative(root, outputFile)}.`);
