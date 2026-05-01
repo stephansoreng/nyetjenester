@@ -16,6 +16,20 @@ const PHASES = [
 
 const ALL_PHASES = [...PHASES, { label: "Uklassifisert", tone: "unclassified" }];
 
+const CARDS_PER_COLUMN = 25;
+const CARD_H = 0.185;
+const CARD_GAP = 0.025;
+const CARD_FONT = 6.5;
+
+const SLIDE_COLORS = {
+  proposed: { fill: "DDEFC8", accent: "608E36" },
+  intake: { fill: "F8E5BF", accent: "B16B16" },
+  design: { fill: "DCEBE7", accent: "37766B" },
+  offer: { fill: "E8E3D4", accent: "8A7246" },
+  execution: { fill: "DCE2EF", accent: "4F6B9D" },
+  closing: { fill: "E4DED8", accent: "7C675B" },
+};
+
 function groupBy(items, key) {
   return items.reduce((acc, item) => {
     const value = item[key] || "Uten eier";
@@ -132,7 +146,7 @@ function App() {
       };
 
       for (const group of groups) {
-        addGroupSlide(pptx, group, data.metadata);
+        addGroupSlides(pptx, group, data.metadata);
       }
 
       await pptx.writeFile({ fileName: "nye-tjenester-boards.pptx" });
@@ -306,145 +320,139 @@ function RequestCard({ item }) {
   );
 }
 
-function addGroupSlide(pptx, group, metadata) {
-  const slide = pptx.addSlide();
-  slide.background = { color: "EDF2E7" };
-  slide.addText("Utviklingsradar", {
-    x: 0.35,
-    y: 0.18,
-    w: 2.2,
-    h: 0.24,
-    fontFace: "Aptos",
-    fontSize: 8,
-    color: "586555",
-    bold: true,
-    charSpace: 1,
+function paginateGroup(group) {
+  const phaseItems = PHASES.map((phase) =>
+    group.items
+      .filter((item) => item.derivedPhase === phase.label)
+      .sort((a, b) => a.number.localeCompare(b.number, "nb"))
+  );
+  const maxLen = Math.max(...phaseItems.map((items) => items.length), 0);
+  const pageCount = Math.max(1, Math.ceil(maxLen / CARDS_PER_COLUMN));
+  const pages = Array.from({ length: pageCount }, (_, p) =>
+    phaseItems.map((items) => items.slice(p * CARDS_PER_COLUMN, (p + 1) * CARDS_PER_COLUMN))
+  );
+  return { pages, phaseItems, pageCount };
+}
+
+function renderPhaseColumn(slide, pptx, phase, items, x, startY, colW, colH, palette, opts) {
+  const { pageCount, totalInPhase, rangeStart, rangeEnd, hasMoreBelow } = opts;
+
+  slide.addShape(pptx.ShapeType.roundRect, {
+    x, y: startY, w: colW, h: colH,
+    rectRadius: 0.08,
+    fill: { color: palette.fill, transparency: 8 },
+    line: { color: "B8C2B0", transparency: 25 },
   });
-  slide.addText(group.name, {
-    x: 0.35,
-    y: 0.45,
-    w: 8.6,
-    h: 0.45,
-    fontFace: "Aptos Display",
-    fontSize: 24,
-    bold: true,
-    color: "132117",
+  slide.addShape(pptx.ShapeType.rect, {
+    x, y: startY, w: colW, h: 0.08,
+    fill: { color: palette.accent },
+    line: { color: palette.accent },
   });
-  slide.addText(`${group.items.length} saker · ${metadata.sourceFile}`, {
-    x: 9.2,
-    y: 0.5,
-    w: 3.6,
-    h: 0.28,
+  slide.addText(phase.label, {
+    x: x + 0.08, y: startY + 0.13, w: colW - 0.72, h: 0.18,
+    fontFace: "Aptos", fontSize: 7.5, bold: true, color: "1B2C20",
+    breakLine: false, fit: "shrink",
+  });
+
+  const showRange = pageCount > 1 && totalInPhase > 0 && items.length > 0;
+  const badgeText = showRange
+    ? `${rangeStart + 1}–${rangeEnd} / ${totalInPhase}`
+    : String(totalInPhase);
+  const badgeW = showRange ? 0.6 : 0.24;
+  slide.addText(badgeText, {
+    x: x + colW - badgeW - 0.06,
+    y: startY + 0.11,
+    w: badgeW,
+    h: 0.2,
     align: "right",
     fontFace: "Aptos",
-    fontSize: 9,
-    color: "586555",
+    fontSize: showRange ? 6 : 8,
+    bold: true,
+    color: "1B2C20",
   });
 
-  const colors = {
-    proposed: { fill: "DDEFC8", accent: "608E36" },
-    intake: { fill: "F8E5BF", accent: "B16B16" },
-    design: { fill: "DCEBE7", accent: "37766B" },
-    offer: { fill: "E8E3D4", accent: "8A7246" },
-    execution: { fill: "DCE2EF", accent: "4F6B9D" },
-    closing: { fill: "E4DED8", accent: "7C675B" },
-  };
+  const cardsStartY = startY + 0.47;
 
+  if (items.length === 0) {
+    const emptyText = pageCount > 1 && totalInPhase > 0 ? "Ingen flere saker" : "Ingen saker";
+    slide.addText(emptyText, {
+      x: x + 0.1, y: cardsStartY, w: colW - 0.2, h: 0.22,
+      fontFace: "Aptos", italic: true, fontSize: 7, color: "6D776C",
+    });
+    return;
+  }
+
+  items.forEach((item, itemIndex) => {
+    const y = cardsStartY + itemIndex * (CARD_H + CARD_GAP);
+    slide.addShape(pptx.ShapeType.roundRect, {
+      x: x + 0.07, y, w: colW - 0.14, h: CARD_H,
+      rectRadius: 0.035,
+      fill: { color: "FBFCF7", transparency: 0 },
+      line: { color: "FFFFFF", transparency: 100 },
+    });
+    slide.addText(`${item.number} · ${item.title}`, {
+      x: x + 0.12, y: y + 0.025, w: colW - 0.24, h: Math.max(CARD_H - 0.03, 0.12),
+      fontFace: "Aptos", fontSize: CARD_FONT, color: "18241C",
+      fit: "shrink", margin: 0, breakLine: false,
+    });
+  });
+
+  if (hasMoreBelow) {
+    const remaining = totalInPhase - rangeEnd;
+    const indicatorY = cardsStartY + items.length * (CARD_H + CARD_GAP) + 0.02;
+    slide.addText(`↓ +${remaining} på neste side`, {
+      x: x + 0.07, y: indicatorY, w: colW - 0.14, h: 0.18,
+      fontFace: "Aptos", fontSize: 6, color: palette.accent,
+      italic: true, align: "center",
+    });
+  }
+}
+
+function addGroupSlides(pptx, group, metadata) {
   const startX = 0.28;
   const startY = 1.15;
   const gap = 0.08;
   const colW = (12.78 - gap * 5) / 6;
   const colH = 5.95;
 
-  PHASES.forEach((phase, index) => {
-    const items = group.items
-      .filter((item) => item.derivedPhase === phase.label)
-      .sort((a, b) => a.number.localeCompare(b.number, "nb"));
-    const x = startX + index * (colW + gap);
-    const palette = colors[phase.tone];
+  const { pages, phaseItems, pageCount } = paginateGroup(group);
 
-    slide.addShape(pptx.ShapeType.roundRect, {
-      x,
-      y: startY,
-      w: colW,
-      h: colH,
-      rectRadius: 0.08,
-      fill: { color: palette.fill, transparency: 8 },
-      line: { color: "B8C2B0", transparency: 25 },
+  pages.forEach((pagePhaseItems, pageIndex) => {
+    const slide = pptx.addSlide();
+    slide.background = { color: "EDF2E7" };
+
+    slide.addText("Utviklingsradar", {
+      x: 0.35, y: 0.18, w: 2.2, h: 0.24,
+      fontFace: "Aptos", fontSize: 8, color: "586555", bold: true, charSpace: 1,
     });
-    slide.addShape(pptx.ShapeType.rect, {
-      x,
-      y: startY,
-      w: colW,
-      h: 0.08,
-      fill: { color: palette.accent },
-      line: { color: palette.accent },
-    });
-    slide.addText(phase.label, {
-      x: x + 0.08,
-      y: startY + 0.13,
-      w: colW - 0.5,
-      h: 0.18,
-      fontFace: "Aptos",
-      fontSize: 7.5,
-      bold: true,
-      color: "1B2C20",
-      breakLine: false,
-      fit: "shrink",
-    });
-    slide.addText(String(items.length), {
-      x: x + colW - 0.34,
-      y: startY + 0.11,
-      w: 0.24,
-      h: 0.2,
-      align: "center",
-      fontFace: "Aptos",
-      fontSize: 8,
-      bold: true,
-      color: "1B2C20",
+    slide.addText(group.name, {
+      x: 0.35, y: 0.45, w: 8.6, h: 0.45,
+      fontFace: "Aptos Display", fontSize: 24, bold: true, color: "132117",
     });
 
-    const availableH = colH - 0.55;
-    const cardGap = 0.035;
-    const cardH = Math.max(0.16, Math.min(0.34, (availableH - cardGap * Math.max(items.length - 1, 0)) / Math.max(items.length, 1)));
-    const fontSize = items.length > 14 ? 3.8 : items.length > 9 ? 4.6 : 5.4;
+    const pageIndicator = pageCount > 1 ? ` · side ${pageIndex + 1}/${pageCount}` : "";
+    slide.addText(`${group.items.length} saker${pageIndicator} · ${metadata.sourceFile}`, {
+      x: 9.2, y: 0.5, w: 3.6, h: 0.28,
+      align: "right", fontFace: "Aptos", fontSize: 9, color: "586555",
+    });
 
-    if (items.length === 0) {
-      slide.addText("Ingen saker", {
-        x: x + 0.1,
-        y: startY + 0.55,
-        w: colW - 0.2,
-        h: 0.22,
-        fontFace: "Aptos",
-        italic: true,
-        fontSize: 7,
-        color: "6D776C",
+    if (pageIndex > 0) {
+      slide.addText("Fortsettelse", {
+        x: 0.35, y: 0.93, w: 5, h: 0.18,
+        fontFace: "Aptos", fontSize: 9, color: "586555", italic: true,
       });
-      return;
     }
 
-    items.forEach((item, itemIndex) => {
-      const y = startY + 0.47 + itemIndex * (cardH + cardGap);
-      slide.addShape(pptx.ShapeType.roundRect, {
-        x: x + 0.07,
-        y,
-        w: colW - 0.14,
-        h: cardH,
-        rectRadius: 0.035,
-        fill: { color: "FBFCF7", transparency: 0 },
-        line: { color: "FFFFFF", transparency: 100 },
-      });
-      slide.addText(`${item.number} · ${item.title}`, {
-        x: x + 0.12,
-        y: y + 0.025,
-        w: colW - 0.24,
-        h: Math.max(cardH - 0.03, 0.12),
-        fontFace: "Aptos",
-        fontSize,
-        color: "18241C",
-        fit: "shrink",
-        margin: 0,
-        breakLine: false,
+    PHASES.forEach((phase, index) => {
+      const items = pagePhaseItems[index];
+      const totalInPhase = phaseItems[index].length;
+      const rangeStart = pageIndex * CARDS_PER_COLUMN;
+      const rangeEnd = rangeStart + items.length;
+      const hasMoreBelow = rangeEnd < totalInPhase;
+      const x = startX + index * (colW + gap);
+
+      renderPhaseColumn(slide, pptx, phase, items, x, startY, colW, colH, SLIDE_COLORS[phase.tone], {
+        pageIndex, pageCount, totalInPhase, rangeStart, rangeEnd, hasMoreBelow,
       });
     });
   });
