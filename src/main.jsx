@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { toPng } from "html-to-image";
 import pptxgen from "pptxgenjs";
@@ -62,10 +62,29 @@ function downloadDataUrl(dataUrl, fileName) {
   link.click();
 }
 
+function applyPiFilter(items, selectedPIs) {
+  if (selectedPIs.size === 0) return items;
+  const groupHasPI = items.some((i) => i.pi);
+  if (!groupHasPI) return items;
+  return items.filter((i) => selectedPIs.has(i.pi));
+}
+
 function App() {
   const [selectedGroup, setSelectedGroup] = useState("");
   const [isExporting, setIsExporting] = useState(false);
+  const [selectedPIs, setSelectedPIs] = useState(new Set());
+  const [piFilterOpen, setPiFilterOpen] = useState(false);
   const boardRefs = useRef(new Map());
+  const piDropdownRef = useRef(null);
+
+  useEffect(() => {
+    if (!piFilterOpen) return;
+    function handleClickOutside(e) {
+      if (!piDropdownRef.current?.contains(e.target)) setPiFilterOpen(false);
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [piFilterOpen]);
 
   const requests = data.requests ?? [];
   const groups = useMemo(() => {
@@ -82,6 +101,29 @@ function App() {
   const activeGroup = groups.find((group) => group.name === activeGroupName) ?? groups[0];
   const totals = countByPhase(requests);
 
+  const piOptions = useMemo(() => {
+    const values = [...new Set((activeGroup?.items ?? []).map((i) => i.pi).filter(Boolean))].sort();
+    return values;
+  }, [activeGroup]);
+
+  const filteredActiveCount = activeGroup
+    ? applyPiFilter(activeGroup.items, selectedPIs).length
+    : 0;
+
+  function handleSelectGroup(name) {
+    setSelectedGroup(name);
+    setSelectedPIs(new Set());
+    setPiFilterOpen(false);
+  }
+
+  function togglePI(pi) {
+    setSelectedPIs((prev) => {
+      const next = new Set(prev);
+      next.has(pi) ? next.delete(pi) : next.add(pi);
+      return next;
+    });
+  }
+
   function setBoardRef(groupName, node) {
     if (!node) {
       boardRefs.current.delete(groupName);
@@ -96,9 +138,7 @@ function App() {
       cacheBust: true,
       pixelRatio: 2,
       backgroundColor: "#edf2e7",
-      style: {
-        margin: "0",
-      },
+      style: { margin: "0" },
     });
     downloadDataUrl(dataUrl, fileName);
   }
@@ -145,8 +185,13 @@ function App() {
         lang: "nb-NO",
       };
 
+      const piFilter = [...selectedPIs];
       for (const group of groups) {
-        addGroupSlides(pptx, group, data.metadata);
+        const exportGroup =
+          selectedPIs.size > 0
+            ? { ...group, items: applyPiFilter(group.items, selectedPIs) }
+            : group;
+        addGroupSlides(pptx, exportGroup, data.metadata, piFilter);
       }
 
       await pptx.writeFile({ fileName: "nye-tjenester-boards.pptx" });
@@ -198,13 +243,58 @@ function App() {
         ))}
       </section>
 
-      <BoardTabs groups={groups} activeGroupName={activeGroupName} onSelect={setSelectedGroup} />
+      <BoardTabs groups={groups} activeGroupName={activeGroupName} onSelect={handleSelectGroup} />
+
+      {piOptions.length > 0 && (
+        <div className="pi-filter-bar">
+          <div className="pi-filter-dropdown" ref={piDropdownRef}>
+            <button
+              type="button"
+              className={`pi-filter-trigger ${selectedPIs.size > 0 ? "active" : ""}`}
+              onClick={() => setPiFilterOpen((o) => !o)}
+            >
+              <span>
+                {selectedPIs.size === 0 ? "Filtrer på PI" : `${selectedPIs.size} PI valgt`}
+              </span>
+              <strong>{filteredActiveCount}</strong>
+            </button>
+            {piFilterOpen && (
+              <div className="pi-filter-panel">
+                {selectedPIs.size > 0 && (
+                  <button
+                    type="button"
+                    className="pi-filter-action"
+                    onClick={() => setSelectedPIs(new Set())}
+                  >
+                    Nullstill filter
+                  </button>
+                )}
+                {piOptions.map((pi) => {
+                  const count = (activeGroup?.items ?? []).filter((i) => i.pi === pi).length;
+                  return (
+                    <label key={pi} className="pi-filter-option">
+                      <input
+                        type="checkbox"
+                        checked={selectedPIs.has(pi)}
+                        onChange={() => togglePI(pi)}
+                      />
+                      <span>{pi}</span>
+                      <strong>{count}</strong>
+                    </label>
+                  );
+                })}
+              </div>
+            )}
+          </div>
+        </div>
+      )}
 
       {activeGroup && (
         <PhaseBoard
           group={activeGroup}
           metadata={data.metadata}
           refCallback={(node) => setBoardRef(activeGroup.name, node)}
+          selectedPIs={selectedPIs}
           visible
         />
       )}
@@ -218,6 +308,7 @@ function App() {
               group={group}
               metadata={data.metadata}
               refCallback={(node) => setBoardRef(group.name, node)}
+              selectedPIs={selectedPIs}
             />
           ))}
       </div>
@@ -243,10 +334,12 @@ function BoardTabs({ groups, activeGroupName, onSelect }) {
   );
 }
 
-function PhaseBoard({ group, metadata, refCallback, visible = false }) {
-  const groupedByPhase = groupBy(group.items, "derivedPhase");
-  const phaseCounts = countByPhase(group.items);
+function PhaseBoard({ group, metadata, refCallback, visible = false, selectedPIs = new Set() }) {
+  const filteredItems = applyPiFilter(group.items, selectedPIs);
+  const groupedByPhase = groupBy(filteredItems, "derivedPhase");
+  const phaseCounts = countByPhase(filteredItems);
   const unclassified = groupedByPhase.Uklassifisert ?? [];
+  const isFiltered = filteredItems.length !== group.items.length;
 
   return (
     <section className={`board-card ${visible ? "visible-board" : ""}`} ref={refCallback}>
@@ -256,7 +349,11 @@ function PhaseBoard({ group, metadata, refCallback, visible = false }) {
           <h2>{group.name}</h2>
         </div>
         <div className="board-meta">
-          <span>{group.items.length} saker</span>
+          <span>
+            {isFiltered
+              ? `${filteredItems.length} av ${group.items.length} saker`
+              : `${group.items.length} saker`}
+          </span>
           <span>{metadata.sourceFile}</span>
         </div>
       </div>
@@ -315,6 +412,7 @@ function RequestCard({ item }) {
         <strong>{item.number || "Uten nummer"}</strong>
         <span>{item.status || "Uten status"}</span>
       </div>
+      {item.pi && <span className="pi-badge">{item.pi}</span>}
       <h3>{item.title || "Uten tittel"}</h3>
     </article>
   );
@@ -356,7 +454,7 @@ function renderPhaseColumn(slide, pptx, phase, items, x, startY, colW, colH, pal
 
   const showRange = pageCount > 1 && totalInPhase > 0 && items.length > 0;
   const badgeText = showRange
-    ? `${rangeStart + 1}–${rangeEnd} / ${totalInPhase}`
+    ? `${rangeStart + 1}–${rangeEnd} / ${totalInPhase}`
     : String(totalInPhase);
   const badgeW = showRange ? 0.6 : 0.24;
   slide.addText(badgeText, {
@@ -390,7 +488,10 @@ function renderPhaseColumn(slide, pptx, phase, items, x, startY, colW, colH, pal
       fill: { color: "FBFCF7", transparency: 0 },
       line: { color: "FFFFFF", transparency: 100 },
     });
-    slide.addText(`${item.number} · ${item.title}`, {
+    const cardText = item.pi
+      ? `${item.number} · ${item.pi} · ${item.title}`
+      : `${item.number} · ${item.title}`;
+    slide.addText(cardText, {
       x: x + 0.12, y: y + 0.025, w: colW - 0.24, h: Math.max(CARD_H - 0.03, 0.12),
       fontFace: "Aptos", fontSize: CARD_FONT, color: "18241C",
       fit: "shrink", margin: 0, breakLine: false,
@@ -408,7 +509,7 @@ function renderPhaseColumn(slide, pptx, phase, items, x, startY, colW, colH, pal
   }
 }
 
-function addGroupSlides(pptx, group, metadata) {
+function addGroupSlides(pptx, group, metadata, piFilter = []) {
   const startX = 0.28;
   const startY = 1.15;
   const gap = 0.08;
@@ -436,9 +537,12 @@ function addGroupSlides(pptx, group, metadata) {
       align: "right", fontFace: "Aptos", fontSize: 9, color: "586555",
     });
 
-    if (pageIndex > 0) {
-      slide.addText("Fortsettelse", {
-        x: 0.35, y: 0.93, w: 5, h: 0.18,
+    const subtitleParts = [];
+    if (pageIndex > 0) subtitleParts.push("Fortsettelse");
+    if (piFilter.length > 0) subtitleParts.push(`PI: ${piFilter.join(", ")}`);
+    if (subtitleParts.length > 0) {
+      slide.addText(subtitleParts.join(" · "), {
+        x: 0.35, y: 0.93, w: 8, h: 0.18,
         fontFace: "Aptos", fontSize: 9, color: "586555", italic: true,
       });
     }

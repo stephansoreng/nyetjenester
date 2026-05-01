@@ -176,6 +176,8 @@ async function importEpjFile() {
     throw new Error(`Mangler kolonner i features_EPJ.xlsx: ${missingColumns.join(", ")}`);
   }
 
+  const piColIndex = findColumn(headers, "PI");
+
   const requests = [];
   sheet.eachRow({ includeEmpty: false }, (row, rowNumber) => {
     if (rowNumber === 1) return;
@@ -183,6 +185,7 @@ async function importEpjFile() {
     const number = get("Feature_ID");
     const title = get("Feature navn");
     const status = get("Status");
+    const pi = piColIndex >= 0 ? cellToText(row.getCell(piColIndex + 1).value) : "";
 
     if (!number && !title) return;
     if (normalize(status) === "kansellert") return;
@@ -192,6 +195,7 @@ async function importEpjFile() {
       number,
       title,
       status,
+      pi,
       assignmentGroup: EPJ_ASSIGNMENT_GROUP,
       phasePlaceholder: "",
       derivedPhase: deriveEpjPhase(status),

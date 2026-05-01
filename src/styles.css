@@ -420,6 +420,127 @@ h1 {
   margin-bottom: 24px;
 }
 
+.pi-filter-bar {
+  position: relative;
+  z-index: 2;
+  max-width: 1720px;
+  margin: 0 auto 14px;
+}
+
+.pi-filter-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.pi-filter-trigger {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  min-height: 42px;
+  padding: 8px 12px 8px 15px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(247, 245, 235, 0.62);
+  color: var(--ink);
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.pi-filter-trigger.active {
+  border-color: var(--execution);
+  background: rgba(95, 120, 170, 0.12);
+  color: var(--execution);
+}
+
+.pi-filter-trigger strong {
+  display: grid;
+  min-width: 28px;
+  height: 28px;
+  place-items: center;
+  border-radius: 999px;
+  background: rgba(79, 107, 157, 0.18);
+  color: var(--ink);
+  font-size: 12px;
+}
+
+.pi-filter-panel {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  z-index: 10;
+  min-width: 220px;
+  padding: 8px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: rgba(247, 245, 235, 0.97);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(16px);
+}
+
+.pi-filter-action {
+  display: block;
+  width: 100%;
+  margin-bottom: 6px;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 800;
+  text-align: left;
+}
+
+.pi-filter-action:hover {
+  background: rgba(19, 33, 23, 0.05);
+}
+
+.pi-filter-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.pi-filter-option:hover {
+  background: rgba(19, 33, 23, 0.05);
+}
+
+.pi-filter-option input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: var(--execution);
+}
+
+.pi-filter-option strong {
+  display: grid;
+  min-width: 28px;
+  height: 22px;
+  margin-left: auto;
+  place-items: center;
+  border-radius: 999px;
+  background: rgba(19, 33, 23, 0.07);
+  font-size: 11px;
+}
+
+.pi-badge {
+  display: inline-block;
+  margin-bottom: 5px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: rgba(79, 107, 157, 0.13);
+  color: var(--execution);
+  font-size: 10px;
+  font-weight: 700;
+}
+
 .empty-state {
   display: grid;
   min-height: 100vh;
