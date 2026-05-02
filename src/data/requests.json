@@ -4,7 +4,7 @@
     "sourcePath": "input\\nye tjenester 30.04 - kliniske.xlsx",
     "sheetName": "export",
     "epjSourceFile": "features_EPJ.xlsx",
-    "importedAt": "2026-05-01T12:38:05.803Z",
+    "importedAt": "2026-05-02T08:38:55.757Z",
     "total": 248,
     "totalMain": 108,
     "totalEpj": 140
@@ -18,6 +18,7 @@
       "assignmentGroup": "AMK-tjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 2
     },
     {
@@ -28,6 +29,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 3
     },
     {
@@ -38,6 +40,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 4
     },
     {
@@ -48,6 +51,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 5
     },
     {
@@ -58,6 +62,7 @@
       "assignmentGroup": "AMK-tjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 6
     },
     {
@@ -68,6 +73,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 7
     },
     {
@@ -78,6 +84,7 @@
       "assignmentGroup": "AMK-tjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 8
     },
     {
@@ -88,6 +95,7 @@
       "assignmentGroup": "AMK-tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 9
     },
     {
@@ -98,6 +106,7 @@
       "assignmentGroup": "AMK-tjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 10
     },
     {
@@ -108,6 +117,7 @@
       "assignmentGroup": "AMK-tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 11
     },
     {
@@ -118,6 +128,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "5. overlevering",
       "derivedPhase": "Avslutning",
+      "source": "nye-tjenester",
       "sourceRow": 12
     },
     {
@@ -128,6 +139,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 13
     },
     {
@@ -138,6 +150,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 14
     },
     {
@@ -148,6 +161,7 @@
       "assignmentGroup": "AMK-tjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 15
     },
     {
@@ -158,6 +172,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 16
     },
     {
@@ -168,6 +183,7 @@
       "assignmentGroup": "AMK-tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 17
     },
     {
@@ -178,6 +194,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 18
     },
     {
@@ -188,6 +205,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 19
     },
     {
@@ -198,6 +216,7 @@
       "assignmentGroup": "AMK-tjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 20
     },
     {
@@ -208,6 +227,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 21
     },
     {
@@ -218,6 +238,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 22
     },
     {
@@ -228,6 +249,7 @@
       "assignmentGroup": "AMK-tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 23
     },
     {
@@ -238,6 +260,7 @@
       "assignmentGroup": "AMK-tjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 24
     },
     {
@@ -248,6 +271,7 @@
       "assignmentGroup": "Elektronisk kurve - forvaltning",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 25
     },
     {
@@ -258,6 +282,7 @@
       "assignmentGroup": "AMK-tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 26
     },
     {
@@ -268,6 +293,7 @@
       "assignmentGroup": "AMK-tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 27
     },
     {
@@ -278,6 +304,7 @@
       "assignmentGroup": "AMK-tjenester",
       "phasePlaceholder": "5. overlevering",
       "derivedPhase": "Avslutning",
+      "source": "nye-tjenester",
       "sourceRow": 28
     },
     {
@@ -288,6 +315,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 29
     },
     {
@@ -298,6 +326,7 @@
       "assignmentGroup": "AMK-tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 30
     },
     {
@@ -308,6 +337,7 @@
       "assignmentGroup": "Kliniske spesialiteter",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 31
     },
     {
@@ -318,6 +348,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 32
     },
     {
@@ -328,6 +359,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 33
     },
     {
@@ -338,6 +370,7 @@
       "assignmentGroup": "AMK-tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 34
     },
     {
@@ -348,6 +381,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 35
     },
     {
@@ -358,6 +392,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 36
     },
     {
@@ -368,6 +403,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 37
     },
     {
@@ -378,6 +414,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 38
     },
     {
@@ -388,6 +425,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 39
     },
     {
@@ -398,6 +436,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 40
     },
     {
@@ -408,6 +447,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 41
     },
     {
@@ -418,6 +458,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 42
     },
     {
@@ -428,6 +469,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 43
     },
     {
@@ -438,6 +480,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 44
     },
     {
@@ -448,6 +491,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 45
     },
     {
@@ -458,6 +502,7 @@
       "assignmentGroup": "Forvaltningssenter EPJ",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 46
     },
     {
@@ -468,6 +513,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 47
     },
     {
@@ -478,6 +524,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 48
     },
     {
@@ -488,6 +535,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 49
     },
     {
@@ -498,6 +546,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 50
     },
     {
@@ -508,6 +557,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 51
     },
     {
@@ -518,6 +568,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 52
     },
     {
@@ -528,6 +579,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 53
     },
     {
@@ -538,6 +590,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 54
     },
     {
@@ -548,6 +601,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "1. mottak og kategorisering",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "nye-tjenester",
       "sourceRow": 55
     },
     {
@@ -558,6 +612,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 56
     },
     {
@@ -568,6 +623,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "1. mottak og kategorisering",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "nye-tjenester",
       "sourceRow": 57
     },
     {
@@ -578,6 +634,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 58
     },
     {
@@ -588,6 +645,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 59
     },
     {
@@ -598,6 +656,7 @@
       "assignmentGroup": "AMK-tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 60
     },
     {
@@ -608,6 +667,7 @@
       "assignmentGroup": "AMK-tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 61
     },
     {
@@ -618,6 +678,7 @@
       "assignmentGroup": "AMK-tjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 62
     },
     {
@@ -628,6 +689,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 63
     },
     {
@@ -638,6 +700,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 64
     },
     {
@@ -648,6 +711,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 65
     },
     {
@@ -658,6 +722,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 66
     },
     {
@@ -668,6 +733,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 67
     },
     {
@@ -678,6 +744,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 68
     },
     {
@@ -688,6 +755,7 @@
       "assignmentGroup": "AMK-tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 69
     },
     {
@@ -698,6 +766,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 70
     },
     {
@@ -708,6 +777,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 71
     },
     {
@@ -718,6 +788,7 @@
       "assignmentGroup": "Kliniske spesialiteter",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 72
     },
     {
@@ -728,6 +799,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 73
     },
     {
@@ -738,6 +810,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 74
     },
     {
@@ -748,6 +821,7 @@
       "assignmentGroup": "AMK-tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 75
     },
     {
@@ -758,6 +832,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 76
     },
     {
@@ -768,6 +843,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 77
     },
     {
@@ -778,6 +854,7 @@
       "assignmentGroup": "Elektronisk kurve - MTU",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 78
     },
     {
@@ -788,6 +865,7 @@
       "assignmentGroup": "AMK-tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 79
     },
     {
@@ -798,6 +876,7 @@
       "assignmentGroup": "Forvaltningssenter EPJ",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 80
     },
     {
@@ -808,6 +887,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 81
     },
     {
@@ -818,6 +898,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 82
     },
     {
@@ -828,6 +909,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 83
     },
     {
@@ -838,6 +920,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 84
     },
     {
@@ -848,6 +931,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 85
     },
     {
@@ -858,6 +942,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 86
     },
     {
@@ -868,6 +953,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 87
     },
     {
@@ -878,6 +964,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 88
     },
     {
@@ -888,6 +975,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 89
     },
     {
@@ -898,6 +986,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 90
     },
     {
@@ -908,6 +997,7 @@
       "assignmentGroup": "Elektronisk kurve - forvaltning",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 91
     },
     {
@@ -918,6 +1008,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 92
     },
     {
@@ -928,6 +1019,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 93
     },
     {
@@ -938,6 +1030,7 @@
       "assignmentGroup": "Kliniske spesialiteter",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 94
     },
     {
@@ -948,6 +1041,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 95
     },
     {
@@ -958,6 +1052,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 96
     },
     {
@@ -968,6 +1063,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 97
     },
     {
@@ -978,6 +1074,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 98
     },
     {
@@ -988,6 +1085,7 @@
       "assignmentGroup": "Bildediagnostiske tjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Løsningsdesign",
+      "source": "nye-tjenester",
       "sourceRow": 99
     },
     {
@@ -998,6 +1096,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 100
     },
     {
@@ -1008,6 +1107,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 101
     },
     {
@@ -1018,6 +1118,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "4. planlegging og gjennomføring",
       "derivedPhase": "Gjennomføring",
+      "source": "nye-tjenester",
       "sourceRow": 102
     },
     {
@@ -1028,6 +1129,7 @@
       "assignmentGroup": "Kliniske spesialiteter",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 103
     },
     {
@@ -1038,6 +1140,7 @@
       "assignmentGroup": "Kliniske spesialiteter",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 104
     },
     {
@@ -1048,6 +1151,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 105
     },
     {
@@ -1058,6 +1162,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 106
     },
     {
@@ -1068,6 +1173,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 107
     },
     {
@@ -1078,6 +1184,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 108
     },
     {
@@ -1088,6 +1195,7 @@
       "assignmentGroup": "Laboratorietjenester",
       "phasePlaceholder": "2. løsningsdesign",
       "derivedPhase": "Inntakskø",
+      "source": "nye-tjenester",
       "sourceRow": 109
     },
     {
@@ -1099,6 +1207,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 2
     },
     {
@@ -1110,6 +1219,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 3
     },
     {
@@ -1121,6 +1231,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 4
     },
     {
@@ -1132,6 +1243,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 5
     },
     {
@@ -1143,6 +1255,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 6
     },
     {
@@ -1154,6 +1267,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 7
     },
     {
@@ -1165,6 +1279,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 8
     },
     {
@@ -1176,6 +1291,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 9
     },
     {
@@ -1187,6 +1303,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 10
     },
     {
@@ -1198,6 +1315,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 11
     },
     {
@@ -1209,6 +1327,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 12
     },
     {
@@ -1220,6 +1339,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 13
     },
     {
@@ -1231,6 +1351,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 14
     },
     {
@@ -1242,6 +1363,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 15
     },
     {
@@ -1253,6 +1375,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 16
     },
     {
@@ -1264,6 +1387,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 17
     },
     {
@@ -1275,6 +1399,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 18
     },
     {
@@ -1286,6 +1411,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 19
     },
     {
@@ -1297,6 +1423,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 20
     },
     {
@@ -1308,6 +1435,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 21
     },
     {
@@ -1319,6 +1447,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 22
     },
     {
@@ -1330,6 +1459,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 23
     },
     {
@@ -1341,6 +1471,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 24
     },
     {
@@ -1352,6 +1483,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 25
     },
     {
@@ -1363,6 +1495,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 26
     },
     {
@@ -1374,6 +1507,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 27
     },
     {
@@ -1385,6 +1519,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 28
     },
     {
@@ -1396,6 +1531,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 29
     },
     {
@@ -1407,6 +1543,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 30
     },
     {
@@ -1418,6 +1555,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 31
     },
     {
@@ -1429,6 +1567,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 32
     },
     {
@@ -1440,6 +1579,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 33
     },
     {
@@ -1451,6 +1591,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 34
     },
     {
@@ -1462,6 +1603,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 35
     },
     {
@@ -1473,6 +1615,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 36
     },
     {
@@ -1484,6 +1627,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 37
     },
     {
@@ -1495,6 +1639,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 38
     },
     {
@@ -1506,6 +1651,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 39
     },
     {
@@ -1517,6 +1663,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 40
     },
     {
@@ -1528,6 +1675,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 41
     },
     {
@@ -1539,6 +1687,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 42
     },
     {
@@ -1550,6 +1699,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 43
     },
     {
@@ -1561,6 +1711,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 44
     },
     {
@@ -1572,6 +1723,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 45
     },
     {
@@ -1583,6 +1735,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 46
     },
     {
@@ -1594,6 +1747,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 47
     },
     {
@@ -1605,6 +1759,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 48
     },
     {
@@ -1616,6 +1771,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 49
     },
     {
@@ -1627,6 +1783,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 50
     },
     {
@@ -1638,6 +1795,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 51
     },
     {
@@ -1649,6 +1807,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 52
     },
     {
@@ -1660,6 +1819,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 53
     },
     {
@@ -1671,6 +1831,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 54
     },
     {
@@ -1682,6 +1843,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 55
     },
     {
@@ -1693,6 +1855,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 56
     },
     {
@@ -1704,6 +1867,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 57
     },
     {
@@ -1715,6 +1879,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 58
     },
     {
@@ -1726,6 +1891,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 59
     },
     {
@@ -1737,6 +1903,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 60
     },
     {
@@ -1748,6 +1915,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 61
     },
     {
@@ -1759,6 +1927,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 62
     },
     {
@@ -1770,6 +1939,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 63
     },
     {
@@ -1781,6 +1951,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 64
     },
     {
@@ -1792,6 +1963,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 65
     },
     {
@@ -1803,6 +1975,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 66
     },
     {
@@ -1814,6 +1987,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 67
     },
     {
@@ -1825,6 +1999,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 68
     },
     {
@@ -1836,6 +2011,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 69
     },
     {
@@ -1847,6 +2023,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 70
     },
     {
@@ -1858,6 +2035,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 71
     },
     {
@@ -1869,6 +2047,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 72
     },
     {
@@ -1880,6 +2059,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 73
     },
     {
@@ -1891,6 +2071,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 74
     },
     {
@@ -1902,6 +2083,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 75
     },
     {
@@ -1913,6 +2095,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 76
     },
     {
@@ -1924,6 +2107,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 77
     },
     {
@@ -1935,6 +2119,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 78
     },
     {
@@ -1946,6 +2131,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 79
     },
     {
@@ -1957,6 +2143,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 80
     },
     {
@@ -1968,6 +2155,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 81
     },
     {
@@ -1979,6 +2167,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 82
     },
     {
@@ -1990,6 +2179,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 83
     },
     {
@@ -2001,6 +2191,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 84
     },
     {
@@ -2012,6 +2203,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 85
     },
     {
@@ -2023,6 +2215,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Løsningsdesign",
+      "source": "epj",
       "sourceRow": 86
     },
     {
@@ -2034,6 +2227,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Løsningsdesign",
+      "source": "epj",
       "sourceRow": 87
     },
     {
@@ -2045,6 +2239,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 88
     },
     {
@@ -2056,6 +2251,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 89
     },
     {
@@ -2067,6 +2263,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 90
     },
     {
@@ -2078,6 +2275,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 91
     },
     {
@@ -2089,6 +2287,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 92
     },
     {
@@ -2100,6 +2299,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 93
     },
     {
@@ -2111,6 +2311,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 94
     },
     {
@@ -2122,6 +2323,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 95
     },
     {
@@ -2133,6 +2335,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 96
     },
     {
@@ -2144,6 +2347,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 98
     },
     {
@@ -2155,6 +2359,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 99
     },
     {
@@ -2166,6 +2371,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 101
     },
     {
@@ -2177,6 +2383,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 102
     },
     {
@@ -2188,6 +2395,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 103
     },
     {
@@ -2199,6 +2407,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 105
     },
     {
@@ -2210,6 +2419,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 106
     },
     {
@@ -2221,6 +2431,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 107
     },
     {
@@ -2232,6 +2443,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 108
     },
     {
@@ -2243,6 +2455,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 109
     },
     {
@@ -2254,6 +2467,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 110
     },
     {
@@ -2265,6 +2479,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 111
     },
     {
@@ -2276,6 +2491,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 112
     },
     {
@@ -2287,6 +2503,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 113
     },
     {
@@ -2298,6 +2515,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 114
     },
     {
@@ -2309,6 +2527,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 116
     },
     {
@@ -2320,6 +2539,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 117
     },
     {
@@ -2331,6 +2551,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 118
     },
     {
@@ -2342,6 +2563,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 119
     },
     {
@@ -2353,6 +2575,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 120
     },
     {
@@ -2364,6 +2587,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 121
     },
     {
@@ -2375,6 +2599,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 122
     },
     {
@@ -2386,6 +2611,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 123
     },
     {
@@ -2397,6 +2623,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 125
     },
     {
@@ -2408,6 +2635,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 126
     },
     {
@@ -2419,6 +2647,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 128
     },
     {
@@ -2430,6 +2659,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 129
     },
     {
@@ -2441,6 +2671,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 130
     },
     {
@@ -2452,6 +2683,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 131
     },
     {
@@ -2463,6 +2695,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 132
     },
     {
@@ -2474,6 +2707,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Løsningsdesign",
+      "source": "epj",
       "sourceRow": 133
     },
     {
@@ -2485,6 +2719,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 134
     },
     {
@@ -2496,6 +2731,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Gjennomføring",
+      "source": "epj",
       "sourceRow": 135
     },
     {
@@ -2507,6 +2743,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Løsningsdesign",
+      "source": "epj",
       "sourceRow": 136
     },
     {
@@ -2518,6 +2755,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 137
     },
     {
@@ -2529,6 +2767,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Løsningsdesign",
+      "source": "epj",
       "sourceRow": 138
     },
     {
@@ -2540,6 +2779,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Løsningsdesign",
+      "source": "epj",
       "sourceRow": 139
     },
     {
@@ -2551,6 +2791,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Løsningsdesign",
+      "source": "epj",
       "sourceRow": 140
     },
     {
@@ -2562,6 +2803,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Inntakskø",
+      "source": "epj",
       "sourceRow": 141
     },
     {
@@ -2573,6 +2815,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 142
     },
     {
@@ -2584,6 +2827,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Løsningsdesign",
+      "source": "epj",
       "sourceRow": 143
     },
     {
@@ -2595,6 +2839,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Løsningsdesign",
+      "source": "epj",
       "sourceRow": 144
     },
     {
@@ -2606,6 +2851,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Løsningsdesign",
+      "source": "epj",
       "sourceRow": 145
     },
     {
@@ -2617,6 +2863,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Foreslåtte initiativ",
+      "source": "epj",
       "sourceRow": 146
     },
     {
@@ -2628,6 +2875,7 @@
       "assignmentGroup": "EPJ - Produktområdeledelse",
       "phasePlaceholder": "",
       "derivedPhase": "Løsningsdesign",
+      "source": "epj",
       "sourceRow": 147
     }
   ]

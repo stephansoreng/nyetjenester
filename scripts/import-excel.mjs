@@ -143,6 +143,7 @@ async function importMainFile(sourceFile) {
       assignmentGroup,
       phasePlaceholder,
       derivedPhase: derivePhase(status, phasePlaceholder),
+      source: "nye-tjenester",
       sourceRow: rowNumber,
     });
   });
@@ -199,6 +200,7 @@ async function importEpjFile() {
       assignmentGroup: EPJ_ASSIGNMENT_GROUP,
       phasePlaceholder: "",
       derivedPhase: deriveEpjPhase(status),
+      source: "epj",
       sourceRow: rowNumber,
     });
   });
