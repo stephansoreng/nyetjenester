@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
+import { inject } from "@vercel/analytics";
 import pptxgen from "pptxgenjs";
 import logoUrl from "../profil/helsenordikt_logo.png";
 import data from "./data/requests.json";
@@ -512,4 +513,5 @@ function addGroupSlides(pptx, group, metadata, piFilter = []) {
   });
 }
 
+inject();
 createRoot(document.getElementById("root")).render(<App />);
