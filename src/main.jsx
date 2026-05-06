@@ -181,7 +181,6 @@ function App() {
       <header className="hero">
         <div className="hero-text">
           <img src={logoUrl} alt="Helse Nord IKT" className="brand-logo" />
-          <p className="eyebrow">Helse Nord IKT</p>
           <h1>Utviklingsradar kliniske og pasientrettede systemer</h1>
           <p className="hero-copy">
             {data.metadata.total} saker fra {data.metadata.sourceFile}. Velg eiergruppe for å se
